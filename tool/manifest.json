@@ -1,41 +1,41 @@
 {
-  "source": "@iconify-json/solar@1.2.10",
+  "source": "@iconify-json/solar@1.2.15",
   "unitsPerEm": 1200,
   "firstCodePoint": "0xe000",
   "styles": [
     {
       "class": "SolarIconsBoldDuotone",
-      "icons": 1325,
-      "duotoneLayers": 1318,
+      "icons": 1584,
+      "duotoneLayers": 1582,
       "font": "SolarIconsBoldDuotone.ttf"
     },
     {
       "class": "SolarIconsLineDuotone",
-      "icons": 1295,
-      "duotoneLayers": 1270,
+      "icons": 1554,
+      "duotoneLayers": 1552,
       "font": "SolarIconsLineDuotone.ttf"
     },
     {
       "class": "SolarIconsLinear",
-      "icons": 1283,
+      "icons": 1542,
       "duotoneLayers": 0,
       "font": "SolarIconsLinear.ttf"
     },
     {
       "class": "SolarIconsOutline",
-      "icons": 1280,
+      "icons": 1539,
       "duotoneLayers": 0,
       "font": "SolarIconsOutline.ttf"
     },
     {
       "class": "SolarIconsBroken",
-      "icons": 1284,
+      "icons": 1543,
       "duotoneLayers": 0,
       "font": "SolarIconsBroken.ttf"
     },
     {
       "class": "SolarIconsBold",
-      "icons": 1292,
+      "icons": 1551,
       "duotoneLayers": 0,
       "font": "SolarIconsBold.ttf"
     }

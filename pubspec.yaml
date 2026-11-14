@@ -1,8 +1,8 @@
 name: solar_icons_flutter
 description: >-
-  The complete Solar Icon Set: 7,759 icons in all six styles (linear, outline,
+  The complete Solar Icon Set: 9,313 icons in all six styles (linear, outline,
   bold, broken, and both duotones) as tree-shakeable icon fonts. No dependencies.
-version: 1.0.0
+version: 1.1.0
 repository: https://github.com/nanaaikinson/solar_icons_flutter
 issue_tracker: https://github.com/nanaaikinson/solar_icons_flutter/issues
 

@@ -1,6 +1,6 @@
 # solar_icons_flutter
 
-The complete [Solar Icon Set](https://solar-icons.vercel.app) for Flutter — **7,759 icons**
+The complete [Solar Icon Set](https://solar-icons.vercel.app) for Flutter — **9,313 icons**
 across all six Solar styles, as plain `IconData` backed by icon fonts. No dependencies.
 
 ```dart
@@ -11,12 +11,12 @@ SolarDuotoneIcon(SolarIconsBoldDuotone.home);
 
 | Style | Class | Icons | Font |
 | --- | --- | --: | --- |
-| Linear | `SolarIconsLinear` | 1,283 | 469 KB |
-| Outline | `SolarIconsOutline` | 1,280 | 603 KB |
-| Bold | `SolarIconsBold` | 1,292 | 375 KB |
-| Broken | `SolarIconsBroken` | 1,284 | 554 KB |
-| Line Duotone | `SolarIconsLineDuotone` | 1,295 | 506 KB |
-| Bold Duotone | `SolarIconsBoldDuotone` | 1,325 | 425 KB |
+| Linear | `SolarIconsLinear` | 1,542 | 585 KB |
+| Outline | `SolarIconsOutline` | 1,539 | 719 KB |
+| Bold | `SolarIconsBold` | 1,551 | 446 KB |
+| Broken | `SolarIconsBroken` | 1,543 | 677 KB |
+| Line Duotone | `SolarIconsLineDuotone` | 1,554 | 640 KB |
+| Bold Duotone | `SolarIconsBoldDuotone` | 1,584 | 504 KB |
 
 Solar does not draw every icon in every style, so the counts differ and a name that
 exists in one class may be missing from another.
@@ -112,7 +112,7 @@ duotone included.
 The catch is Flutter's, not this package's: the subsetter only rewrites fonts that have
 at least one referenced glyph. A style you never touch is still copied into the bundle at
 full size. So an app using icons from one style ships that style subset to a few hundred
-bytes plus roughly 2.5 MB of untouched fonts; using all six brings that to zero. If that
+bytes plus roughly 3 MB of untouched fonts; using all six brings that to zero. If that
 matters for your app, reference at least one icon from each style you ship, or vendor the
 single `.ttf` you need out of `fonts/` and declare it yourself.
 
@@ -125,23 +125,21 @@ pixels:
 
 | Style | Mean difference | 99th percentile | Worst |
 | --- | --: | --: | --: |
-| Bold | 0.16% | 0.36% | 7.7% |
-| Bold Duotone | 0.15% | 3.5% | 10.6% |
-| Outline | 0.21% | 0.43% | 0.96% |
-| Line Duotone | 0.80% | 2.7% | 12.7% |
-| Broken | 0.86% | 2.3% | 2.9% |
-| Linear | 0.95% | 2.5% | 3.0% |
+| Bold | 0.20% | 0.38% | 0.65% |
+| Bold Duotone | 0.18% | 0.33% | 3.7% |
+| Outline | 0.31% | 0.50% | 0.65% |
+| Line Duotone | 0.73% | 2.0% | 2.7% |
+| Broken | 0.85% | 2.2% | 2.7% |
+| Linear | 0.93% | 2.3% | 2.8% |
 
 The baseline for the stroke-drawn styles is antialiasing along outlined strokes, not
-shape error. Two real deviations are known:
+shape error.
 
-- **13 Bold Duotone icons** — `bookmark-opened`, `skirt`, `win-rar`, `winrar`, `leaf`,
-  `atom`, `shop`, `box-minimalistic`, `palette`, `palette-round`, `filters`, `database`,
-  `volleyball-2` — draw translucent shapes that overlap each other, and the overlap
-  composites darker than either shape alone. A two-glyph duotone model can only render
-  one flat shade, so these look slightly lighter than the SVG.
-- **`barcode-bold`** has bars at mixed opacity in the source. Bold is a single-layer
-  style here, so its bars all render solid.
+Where a duotone icon stacks translucent shapes, the overlap composites darker than either
+shape alone. Those icons carry extra `overlaps` layers, drawn at the same half opacity, so
+two stacked shapes render at 75% and three at 87.5%, as in the SVG. The one known
+deviation is `winrar` in Bold Duotone, whose top band is 30% opaque in the source: the
+lightest shade a layer can draw is 50%.
 
 ## Regenerating
 
@@ -160,9 +158,15 @@ and strokes), splits duotone icons into their two opacity layers, and builds one
 TrueType font plus one Dart class per style. Glyphs live in the Private Use Area from
 `U+E000`; duotone secondaries sit at the primary code point plus one.
 
+[`tool/codepoints.json`](tool/codepoints.json) records every code point ever assigned.
+Regeneration keeps them and appends new icons after the highest one, and a name Solar
+renames into an alias keeps shipping under its old name. The generator formats the
+bindings with the `dart` on your `PATH`; use a Dart 3.6 SDK so the output matches the
+package's language version.
+
 ## Example
 
-[`example/`](example) is a browsable gallery of all 7,759 icons with search, a style
+[`example/`](example) is a browsable gallery of all 9,313 icons with search, a style
 switcher, a size slider, light/dark mode, and copy-to-clipboard for the Dart snippet.
 
 ```bash

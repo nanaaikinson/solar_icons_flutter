@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 
 /// Icon data for a Solar duotone icon.
@@ -19,7 +20,11 @@ import 'package:flutter/widgets.dart';
 @immutable
 class SolarDuotoneIconData {
   /// Creates icon data for a two-layer duotone icon.
-  const SolarDuotoneIconData({required this.primary, required this.secondary});
+  const SolarDuotoneIconData({
+    required this.primary,
+    required this.secondary,
+    this.overlaps = const <IconData>[],
+  });
 
   /// The full-opacity layer, drawn on top.
   ///
@@ -33,15 +38,24 @@ class SolarDuotoneIconData {
   /// the icon renders identically to [primary].
   final IconData secondary;
 
+  /// Extra layers drawn over [secondary] at the same opacity, where Solar
+  /// stacks translucent shapes.
+  ///
+  /// Each layer covers the region where one more shape overlaps, so two shaded
+  /// shapes composite to 75% and three to 87.5%, as in the source SVG. Empty
+  /// for almost every icon.
+  final List<IconData> overlaps;
+
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
       other is SolarDuotoneIconData &&
           other.primary == primary &&
-          other.secondary == secondary;
+          other.secondary == secondary &&
+          listEquals(other.overlaps, overlaps);
 
   @override
-  int get hashCode => Object.hash(primary, secondary);
+  int get hashCode => Object.hash(primary, secondary, Object.hashAll(overlaps));
 
   @override
   String toString() =>
