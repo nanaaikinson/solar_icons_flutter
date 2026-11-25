@@ -1,11 +1,11 @@
 // GENERATED FILE - DO NOT EDIT.
 //
 // Regenerate with: python3 tool/generate.py
-// Source: Solar Icon Set by 480 Design, via @iconify-json/solar@1.2.10 (CC BY 4.0).
+// Source: Solar Icon Set by 480 Design, via @iconify-json/solar@1.2.15 (CC BY 4.0).
 
 import 'package:flutter/widgets.dart';
 
-/// The 1292 icons of the Solar `Bold` style.
+/// The 1551 icons of the Solar `Bold` style.
 ///
 /// ```dart
 /// Icon(SolarIconsBold.accessibility)
@@ -181,6 +181,10 @@ abstract final class SolarIconsBold {
   static const IconData archiveCheck =
       IconData(0xe028, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `archive-close` in the Bold style.
+  static const IconData archiveClose =
+      IconData(0xe50c, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `archive-down` in the Bold style.
   static const IconData archiveDown =
       IconData(0xe029, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -196,6 +200,10 @@ abstract final class SolarIconsBold {
   /// Solar `archive-minimalistic` in the Bold style.
   static const IconData archiveMinimalistic =
       IconData(0xe02c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `archive-minimalistic-close` in the Bold style.
+  static const IconData archiveMinimalisticClose =
+      IconData(0xe50d, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `archive-up` in the Bold style.
   static const IconData archiveUp =
@@ -221,6 +229,14 @@ abstract final class SolarIconsBold {
   static const IconData arrowDown =
       IconData(0xe032, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `arrow-down-from-line` in the Bold style.
+  static const IconData arrowDownFromLine =
+      IconData(0xe50e, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `arrow-down-to-line` in the Bold style.
+  static const IconData arrowDownToLine =
+      IconData(0xe50f, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `arrow-left` in the Bold style.
   static const IconData arrowLeft =
       IconData(0xe033, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -228,6 +244,14 @@ abstract final class SolarIconsBold {
   /// Solar `arrow-left-down` in the Bold style.
   static const IconData arrowLeftDown =
       IconData(0xe034, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `arrow-left-from-line` in the Bold style.
+  static const IconData arrowLeftFromLine =
+      IconData(0xe510, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `arrow-left-to-line` in the Bold style.
+  static const IconData arrowLeftToLine =
+      IconData(0xe511, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `arrow-left-up` in the Bold style.
   static const IconData arrowLeftUp =
@@ -240,6 +264,14 @@ abstract final class SolarIconsBold {
   /// Solar `arrow-right-down` in the Bold style.
   static const IconData arrowRightDown =
       IconData(0xe037, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `arrow-right-from-line` in the Bold style.
+  static const IconData arrowRightFromLine =
+      IconData(0xe512, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `arrow-right-to-line` in the Bold style.
+  static const IconData arrowRightToLine =
+      IconData(0xe513, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `arrow-right-up` in the Bold style.
   static const IconData arrowRightUp =
@@ -264,6 +296,18 @@ abstract final class SolarIconsBold {
   /// Solar `arrow-up` in the Bold style.
   static const IconData arrowUp =
       IconData(0xe03d, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `arrow-up-from-line` in the Bold style.
+  static const IconData arrowUpFromLine =
+      IconData(0xe514, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `arrow-up-to-line` in the Bold style.
+  static const IconData arrowUpToLine =
+      IconData(0xe515, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `asterisk` in the Bold style.
+  static const IconData asterisk =
+      IconData(0xe516, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `asteroid` in the Bold style.
   static const IconData asteroid =
@@ -485,6 +529,14 @@ abstract final class SolarIconsBold {
   static const IconData blackHole =
       IconData(0xe074, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `blend` in the Bold style.
+  static const IconData blend =
+      IconData(0xe517, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `blocks` in the Bold style.
+  static const IconData blocks =
+      IconData(0xe518, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `bluetooth` in the Bold style.
   static const IconData bluetooth =
       IconData(0xe075, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -577,13 +629,29 @@ abstract final class SolarIconsBold {
   static const IconData bookmark =
       IconData(0xe08b, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `bookmark-check` in the Bold style.
+  static const IconData bookmarkCheck =
+      IconData(0xe519, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `bookmark-circle` in the Bold style.
   static const IconData bookmarkCircle =
       IconData(0xe08c, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `bookmark-minus` in the Bold style.
+  static const IconData bookmarkMinus =
+      IconData(0xe51a, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `bookmark-off` in the Bold style.
+  static const IconData bookmarkOff =
+      IconData(0xe51b, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `bookmark-opened` in the Bold style.
   static const IconData bookmarkOpened =
       IconData(0xe08d, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `bookmark-plus` in the Bold style.
+  static const IconData bookmarkPlus =
+      IconData(0xe51c, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `bookmark-square` in the Bold style.
   static const IconData bookmarkSquare =
@@ -592,6 +660,10 @@ abstract final class SolarIconsBold {
   /// Solar `bookmark-square-minimalistic` in the Bold style.
   static const IconData bookmarkSquareMinimalistic =
       IconData(0xe08f, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `bookmark-x` in the Bold style.
+  static const IconData bookmarkX =
+      IconData(0xe51d, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `boombox` in the Bold style.
   static const IconData boombox =
@@ -617,6 +689,14 @@ abstract final class SolarIconsBold {
   static const IconData boxMinimalistic =
       IconData(0xe095, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `braces` in the Bold style.
+  static const IconData braces =
+      IconData(0xe51e, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `brackets` in the Bold style.
+  static const IconData brackets =
+      IconData(0xe51f, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `brain` in the Bold style.
   static const IconData brain =
       IconData(0xe096, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -632,6 +712,10 @@ abstract final class SolarIconsBold {
   /// Solar `broom` in the Bold style.
   static const IconData broom =
       IconData(0xe099, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `brush-cross-pen` in the Bold style.
+  static const IconData brushCrossPen =
+      IconData(0xe520, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `bug` in the Bold style.
   static const IconData bug =
@@ -685,6 +769,10 @@ abstract final class SolarIconsBold {
   static const IconData calendarMinimalistic =
       IconData(0xe0a6, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `calendar-range` in the Bold style.
+  static const IconData calendarRange =
+      IconData(0xe521, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `calendar-search` in the Bold style.
   static const IconData calendarSearch =
       IconData(0xe0a7, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -733,6 +821,10 @@ abstract final class SolarIconsBold {
   static const IconData cameraMinimalistic =
       IconData(0xe0b2, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `camera-off` in the Bold style.
+  static const IconData cameraOff =
+      IconData(0xe522, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `camera-rotate` in the Bold style.
   static const IconData cameraRotate =
       IconData(0xe0b3, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -744,6 +836,10 @@ abstract final class SolarIconsBold {
   /// Solar `car-battery` in the Bold style.
   static const IconData carBattery =
       IconData(0xe0b5, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `car` in the Bold style.
+  static const IconData car =
+      IconData(0xe523, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `card-2` in the Bold style.
   static const IconData card2 =
@@ -881,6 +977,10 @@ abstract final class SolarIconsBold {
   static const IconData chart =
       IconData(0xe0d7, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `chart-square-2` in the Bold style.
+  static const IconData chartSquare2 =
+      IconData(0xe524, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `chart-square` in the Bold style.
   static const IconData chartSquare =
       IconData(0xe0d8, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -893,6 +993,10 @@ abstract final class SolarIconsBold {
   static const IconData chatLine =
       IconData(0xe0da, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `chat-round-add` in the Bold style.
+  static const IconData chatRoundAdd =
+      IconData(0xe525, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `chat-round` in the Bold style.
   static const IconData chatRound =
       IconData(0xe0db, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -904,6 +1008,14 @@ abstract final class SolarIconsBold {
   /// Solar `chat-round-check` in the Bold style.
   static const IconData chatRoundCheck =
       IconData(0xe0dd, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-round-close` in the Bold style.
+  static const IconData chatRoundClose =
+      IconData(0xe526, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-round-code` in the Bold style.
+  static const IconData chatRoundCode =
+      IconData(0xe527, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `chat-round-dots` in the Bold style.
   static const IconData chatRoundDots =
@@ -921,6 +1033,22 @@ abstract final class SolarIconsBold {
   static const IconData chatRoundMoney =
       IconData(0xe0e1, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `chat-round-off` in the Bold style.
+  static const IconData chatRoundOff =
+      IconData(0xe528, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-round-question-mark` in the Bold style.
+  static const IconData chatRoundQuestionMark =
+      IconData(0xe529, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-round-quote` in the Bold style.
+  static const IconData chatRoundQuote =
+      IconData(0xe52a, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-round-replay` in the Bold style.
+  static const IconData chatRoundReplay =
+      IconData(0xe52b, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `chat-round-unread` in the Bold style.
   static const IconData chatRoundUnread =
       IconData(0xe0e2, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -929,9 +1057,17 @@ abstract final class SolarIconsBold {
   static const IconData chatRoundVideo =
       IconData(0xe0e3, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `chat-round-warning` in the Bold style.
+  static const IconData chatRoundWarning =
+      IconData(0xe52c, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `chat-square-2` in the Bold style.
   static const IconData chatSquare2 =
       IconData(0xe0e4, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-square-add` in the Bold style.
+  static const IconData chatSquareAdd =
+      IconData(0xe52d, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `chat-square-arrow` in the Bold style.
   static const IconData chatSquareArrow =
@@ -949,17 +1085,57 @@ abstract final class SolarIconsBold {
   static const IconData chatSquareCheck =
       IconData(0xe0e8, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `chat-square-close` in the Bold style.
+  static const IconData chatSquareClose =
+      IconData(0xe52e, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `chat-square-code` in the Bold style.
   static const IconData chatSquareCode =
       IconData(0xe0e9, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-square-dots` in the Bold style.
+  static const IconData chatSquareDots =
+      IconData(0xe52f, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `chat-square-like` in the Bold style.
   static const IconData chatSquareLike =
       IconData(0xe0ea, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `chat-square-line` in the Bold style.
+  static const IconData chatSquareLine =
+      IconData(0xe530, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-square-off` in the Bold style.
+  static const IconData chatSquareOff =
+      IconData(0xe531, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-square-question-mark` in the Bold style.
+  static const IconData chatSquareQuestionMark =
+      IconData(0xe532, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-square-quote` in the Bold style.
+  static const IconData chatSquareQuote =
+      IconData(0xe533, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-square-replay` in the Bold style.
+  static const IconData chatSquareReplay =
+      IconData(0xe534, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-square-unread` in the Bold style.
+  static const IconData chatSquareUnread =
+      IconData(0xe535, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-square-warning` in the Bold style.
+  static const IconData chatSquareWarning =
+      IconData(0xe536, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `chat-unread` in the Bold style.
   static const IconData chatUnread =
       IconData(0xe0eb, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `check` in the Bold style.
+  static const IconData check =
+      IconData(0xe537, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `check-circle` in the Bold style.
   static const IconData checkCircle =
@@ -972,6 +1148,10 @@ abstract final class SolarIconsBold {
   /// Solar `check-square` in the Bold style.
   static const IconData checkSquare =
       IconData(0xe0ee, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `checkerboard` in the Bold style.
+  static const IconData checkerboard =
+      IconData(0xe538, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `checklist` in the Bold style.
   static const IconData checklist =
@@ -993,6 +1173,38 @@ abstract final class SolarIconsBold {
   static const IconData chefHatMinimalistic =
       IconData(0xe0f3, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `chevron-first` in the Bold style.
+  static const IconData chevronFirst =
+      IconData(0xe539, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chevron-last` in the Bold style.
+  static const IconData chevronLast =
+      IconData(0xe53a, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chevrons-down-up` in the Bold style.
+  static const IconData chevronsDownUp =
+      IconData(0xe53b, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chevrons-left-right` in the Bold style.
+  static const IconData chevronsLeftRight =
+      IconData(0xe53c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chevrons-left-right-ellipsis` in the Bold style.
+  static const IconData chevronsLeftRightEllipsis =
+      IconData(0xe53d, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chevrons-right-left` in the Bold style.
+  static const IconData chevronsRightLeft =
+      IconData(0xe53e, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chevrons-up-down` in the Bold style.
+  static const IconData chevronsUpDown =
+      IconData(0xe53f, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `circle` in the Bold style.
+  static const IconData circle =
+      IconData(0xe540, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `circle-bottom-down` in the Bold style.
   static const IconData circleBottomDown =
       IconData(0xe0f4, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -1000,6 +1212,18 @@ abstract final class SolarIconsBold {
   /// Solar `circle-bottom-up` in the Bold style.
   static const IconData circleBottomUp =
       IconData(0xe0f5, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `circle-dashed` in the Bold style.
+  static const IconData circleDashed =
+      IconData(0xe541, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `circle-dot` in the Bold style.
+  static const IconData circleDot =
+      IconData(0xe542, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `circle-dot-dashed` in the Bold style.
+  static const IconData circleDotDashed =
+      IconData(0xe543, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `circle-top-down` in the Bold style.
   static const IconData circleTopDown =
@@ -1049,6 +1273,14 @@ abstract final class SolarIconsBold {
   static const IconData clipboardCheck =
       IconData(0xe101, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `clipboard-clock` in the Bold style.
+  static const IconData clipboardClock =
+      IconData(0xe544, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `clipboard-copy` in the Bold style.
+  static const IconData clipboardCopy =
+      IconData(0xe545, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `clipboard-heart` in the Bold style.
   static const IconData clipboardHeart =
       IconData(0xe102, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -1057,6 +1289,14 @@ abstract final class SolarIconsBold {
   static const IconData clipboardList =
       IconData(0xe103, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `clipboard-minus` in the Bold style.
+  static const IconData clipboardMinus =
+      IconData(0xe546, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `clipboard-paste` in the Bold style.
+  static const IconData clipboardPaste =
+      IconData(0xe547, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `clipboard-remove` in the Bold style.
   static const IconData clipboardRemove =
       IconData(0xe104, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -1064,6 +1304,10 @@ abstract final class SolarIconsBold {
   /// Solar `clipboard-text` in the Bold style.
   static const IconData clipboardText =
       IconData(0xe105, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `clipboard-type` in the Bold style.
+  static const IconData clipboardType =
+      IconData(0xe548, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `clock-circle` in the Bold style.
   static const IconData clockCircle =
@@ -1124,6 +1368,10 @@ abstract final class SolarIconsBold {
   /// Solar `cloud-minus` in the Bold style.
   static const IconData cloudMinus =
       IconData(0xe114, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `cloud-off` in the Bold style.
+  static const IconData cloudOff =
+      IconData(0xe549, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `cloud-plus` in the Bold style.
   static const IconData cloudPlus =
@@ -1205,6 +1453,22 @@ abstract final class SolarIconsBold {
   static const IconData colourTuning =
       IconData(0xe128, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `columns-2` in the Bold style.
+  static const IconData columns2 =
+      IconData(0xe54a, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `columns-3` in the Bold style.
+  static const IconData columns3 =
+      IconData(0xe54b, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `columns-3-cog` in the Bold style.
+  static const IconData columns3Cog =
+      IconData(0xe54c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `columns-4` in the Bold style.
+  static const IconData columns4 =
+      IconData(0xe54d, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `command` in the Bold style.
   static const IconData command =
       IconData(0xe129, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -1253,9 +1517,37 @@ abstract final class SolarIconsBold {
   static const IconData confoundedSquare =
       IconData(0xe134, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `container` in the Bold style.
+  static const IconData container =
+      IconData(0xe54e, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `contrast` in the Bold style.
+  static const IconData contrast =
+      IconData(0xe54f, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `cookie` in the Bold style.
+  static const IconData cookie =
+      IconData(0xe550, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `copy-add` in the Bold style.
+  static const IconData copyAdd =
+      IconData(0xe551, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `copy` in the Bold style.
   static const IconData copy =
       IconData(0xe135, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `copy-check` in the Bold style.
+  static const IconData copyCheck =
+      IconData(0xe552, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `copy-close` in the Bold style.
+  static const IconData copyClose =
+      IconData(0xe553, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `copy-minus` in the Bold style.
+  static const IconData copyMinus =
+      IconData(0xe554, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `copyright` in the Bold style.
   static const IconData copyright =
@@ -1409,6 +1701,14 @@ abstract final class SolarIconsBold {
   static const IconData display =
       IconData(0xe15b, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `distort` in the Bold style.
+  static const IconData distort =
+      IconData(0xe555, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `divide` in the Bold style.
+  static const IconData divide =
+      IconData(0xe556, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `dna` in the Bold style.
   static const IconData dna =
       IconData(0xe15c, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -1541,6 +1841,10 @@ abstract final class SolarIconsBold {
   static const IconData electricRefueling =
       IconData(0xe17c, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `ellipse` in the Bold style.
+  static const IconData ellipse =
+      IconData(0xe557, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `emoji-funny-circle` in the Bold style.
   static const IconData emojiFunnyCircle =
       IconData(0xe17d, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -1556,6 +1860,10 @@ abstract final class SolarIconsBold {
   /// Solar `end-call-rounded` in the Bold style.
   static const IconData endCallRounded =
       IconData(0xe180, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `equal` in the Bold style.
+  static const IconData equal =
+      IconData(0xe558, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `eraser` in the Bold style.
   static const IconData eraser =
@@ -1576,6 +1884,10 @@ abstract final class SolarIconsBold {
   /// Solar `exclamation-mark` in the Bold style.
   static const IconData exclamationMark =
       IconData(0xe185, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `exclude` in the Bold style.
+  static const IconData exclude =
+      IconData(0xe559, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `exit` in the Bold style.
   static const IconData exit =
@@ -1604,6 +1916,10 @@ abstract final class SolarIconsBold {
   /// Solar `eye-closed` in the Bold style.
   static const IconData eyeClosed =
       IconData(0xe18c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `eye-off` in the Bold style.
+  static const IconData eyeOff =
+      IconData(0xe55a, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `eye-scan` in the Bold style.
   static const IconData eyeScan =
@@ -1641,13 +1957,49 @@ abstract final class SolarIconsBold {
   static const IconData figmaFile =
       IconData(0xe195, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `file-add` in the Bold style.
+  static const IconData fileAdd =
+      IconData(0xe55b, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-audio` in the Bold style.
+  static const IconData fileAudio =
+      IconData(0xe55c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-badge` in the Bold style.
+  static const IconData fileBadge =
+      IconData(0xe55d, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `file` in the Bold style.
   static const IconData file =
       IconData(0xe196, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `file-braces` in the Bold style.
+  static const IconData fileBraces =
+      IconData(0xe55e, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-chart-2` in the Bold style.
+  static const IconData fileChart2 =
+      IconData(0xe55f, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-chart` in the Bold style.
+  static const IconData fileChart =
+      IconData(0xe560, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `file-check` in the Bold style.
   static const IconData fileCheck =
       IconData(0xe197, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-cloud` in the Bold style.
+  static const IconData fileCloud =
+      IconData(0xe561, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-code` in the Bold style.
+  static const IconData fileCode =
+      IconData(0xe562, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-cog` in the Bold style.
+  static const IconData fileCog =
+      IconData(0xe563, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `file-corrupted` in the Bold style.
   static const IconData fileCorrupted =
@@ -1665,9 +2017,37 @@ abstract final class SolarIconsBold {
   static const IconData fileFavourite =
       IconData(0xe19b, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `file-figma` in the Bold style.
+  static const IconData fileFigma =
+      IconData(0xe564, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-image` in the Bold style.
+  static const IconData fileImage =
+      IconData(0xe565, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `file-left` in the Bold style.
   static const IconData fileLeft =
       IconData(0xe19c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-lock` in the Bold style.
+  static const IconData fileLock =
+      IconData(0xe566, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-minus` in the Bold style.
+  static const IconData fileMinus =
+      IconData(0xe567, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-pen` in the Bold style.
+  static const IconData filePen =
+      IconData(0xe568, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-play` in the Bold style.
+  static const IconData filePlay =
+      IconData(0xe569, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-question-mark` in the Bold style.
+  static const IconData fileQuestionMark =
+      IconData(0xe56a, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `file-remove` in the Bold style.
   static const IconData fileRemove =
@@ -1677,21 +2057,69 @@ abstract final class SolarIconsBold {
   static const IconData fileRight =
       IconData(0xe19e, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `file-search` in the Bold style.
+  static const IconData fileSearch =
+      IconData(0xe56b, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `file-send` in the Bold style.
   static const IconData fileSend =
       IconData(0xe19f, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-signal` in the Bold style.
+  static const IconData fileSignal =
+      IconData(0xe56c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-sliders` in the Bold style.
+  static const IconData fileSliders =
+      IconData(0xe56d, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `file-smile` in the Bold style.
   static const IconData fileSmile =
       IconData(0xe1a0, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `file-spreadsheet` in the Bold style.
+  static const IconData fileSpreadsheet =
+      IconData(0xe56e, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-stack` in the Bold style.
+  static const IconData fileStack =
+      IconData(0xe56f, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-terminal` in the Bold style.
+  static const IconData fileTerminal =
+      IconData(0xe570, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `file-text` in the Bold style.
   static const IconData fileText =
       IconData(0xe1a1, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `file-type` in the Bold style.
+  static const IconData fileType =
+      IconData(0xe571, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-user` in the Bold style.
+  static const IconData fileUser =
+      IconData(0xe572, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-video-camera` in the Bold style.
+  static const IconData fileVideoCamera =
+      IconData(0xe573, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-warning` in the Bold style.
+  static const IconData fileWarning =
+      IconData(0xe574, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-zip` in the Bold style.
+  static const IconData fileZip =
+      IconData(0xe575, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `filter` in the Bold style.
   static const IconData filter =
       IconData(0xe1a2, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `filter-close` in the Bold style.
+  static const IconData filterClose =
+      IconData(0xe576, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `filters` in the Bold style.
   static const IconData filters =
@@ -1733,6 +2161,10 @@ abstract final class SolarIconsBold {
   static const IconData flashlightOn =
       IconData(0xe1ac, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `flat-brush` in the Bold style.
+  static const IconData flatBrush =
+      IconData(0xe577, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `flip-horizontal` in the Bold style.
   static const IconData flipHorizontal =
       IconData(0xe1ad, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -1765,9 +2197,33 @@ abstract final class SolarIconsBold {
   static const IconData folderCheck =
       IconData(0xe1b4, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `folder-clock` in the Bold style.
+  static const IconData folderClock =
+      IconData(0xe578, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `folder-cloud` in the Bold style.
   static const IconData folderCloud =
       IconData(0xe1b5, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-code` in the Bold style.
+  static const IconData folderCode =
+      IconData(0xe579, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-cog` in the Bold style.
+  static const IconData folderCog =
+      IconData(0xe57a, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-dot` in the Bold style.
+  static const IconData folderDot =
+      IconData(0xe57b, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-dot-open` in the Bold style.
+  static const IconData folderDotOpen =
+      IconData(0xe57c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-down` in the Bold style.
+  static const IconData folderDown =
+      IconData(0xe57d, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `folder-error` in the Bold style.
   static const IconData folderError =
@@ -1785,21 +2241,69 @@ abstract final class SolarIconsBold {
   static const IconData folderFavouriteBookmark =
       IconData(0xe1b9, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `folder-git` in the Bold style.
+  static const IconData folderGit =
+      IconData(0xe57e, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-kanban` in the Bold style.
+  static const IconData folderKanban =
+      IconData(0xe57f, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-lock` in the Bold style.
+  static const IconData folderLock =
+      IconData(0xe580, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `folder-open` in the Bold style.
   static const IconData folderOpen =
       IconData(0xe1ba, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-output` in the Bold style.
+  static const IconData folderOutput =
+      IconData(0xe581, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `folder-path-connect` in the Bold style.
   static const IconData folderPathConnect =
       IconData(0xe1bb, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `folder-pen` in the Bold style.
+  static const IconData folderPen =
+      IconData(0xe582, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-search` in the Bold style.
+  static const IconData folderSearch =
+      IconData(0xe583, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `folder-security` in the Bold style.
   static const IconData folderSecurity =
       IconData(0xe1bc, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `folder-symlink` in the Bold style.
+  static const IconData folderSymlink =
+      IconData(0xe584, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-sync` in the Bold style.
+  static const IconData folderSync =
+      IconData(0xe585, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-tree` in the Bold style.
+  static const IconData folderTree =
+      IconData(0xe586, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-up` in the Bold style.
+  static const IconData folderUp =
+      IconData(0xe587, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `folder-with-files` in the Bold style.
   static const IconData folderWithFiles =
       IconData(0xe1bd, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-zip` in the Bold style.
+  static const IconData folderZip =
+      IconData(0xe588, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folders` in the Bold style.
+  static const IconData folders =
+      IconData(0xe589, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `football` in the Bold style.
   static const IconData football =
@@ -1828,6 +2332,10 @@ abstract final class SolarIconsBold {
   /// Solar `four-k` in the Bold style.
   static const IconData fourK =
       IconData(0xe1c4, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `frame` in the Bold style.
+  static const IconData frame =
+      IconData(0xe58a, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `fridge` in the Bold style.
   static const IconData fridge =
@@ -1945,6 +2453,30 @@ abstract final class SolarIconsBold {
   static const IconData gift =
       IconData(0xe1e1, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `git-branch` in the Bold style.
+  static const IconData gitBranch =
+      IconData(0xe58b, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `git-commit` in the Bold style.
+  static const IconData gitCommit =
+      IconData(0xe58c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `git-diff` in the Bold style.
+  static const IconData gitDiff =
+      IconData(0xe58d, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `git-fork` in the Bold style.
+  static const IconData gitFork =
+      IconData(0xe58e, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `git-graph` in the Bold style.
+  static const IconData gitGraph =
+      IconData(0xe58f, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `git-pull-request` in the Bold style.
+  static const IconData gitPullRequest =
+      IconData(0xe590, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `glasses` in the Bold style.
   static const IconData glasses =
       IconData(0xe1e2, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -1968,6 +2500,10 @@ abstract final class SolarIconsBold {
   /// Solar `gps` in the Bold style.
   static const IconData gps =
       IconData(0xe1e7, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `gradient` in the Bold style.
+  static const IconData gradient =
+      IconData(0xe591, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `graph` in the Bold style.
   static const IconData graph =
@@ -1993,9 +2529,53 @@ abstract final class SolarIconsBold {
   static const IconData graphUp =
       IconData(0xe1ed, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `grid-2x2-add` in the Bold style.
+  static const IconData grid2x2Add =
+      IconData(0xe592, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `grid-2x2` in the Bold style.
+  static const IconData grid2x2 =
+      IconData(0xe593, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `grid-2x2-check` in the Bold style.
+  static const IconData grid2x2Check =
+      IconData(0xe594, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `grid-2x2-close` in the Bold style.
+  static const IconData grid2x2Close =
+      IconData(0xe595, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `grid-3x2` in the Bold style.
+  static const IconData grid3x2 =
+      IconData(0xe596, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `grid-3x3` in the Bold style.
+  static const IconData grid3x3 =
+      IconData(0xe597, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `grip` in the Bold style.
+  static const IconData grip =
+      IconData(0xe598, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `grip-horizontal` in the Bold style.
+  static const IconData gripHorizontal =
+      IconData(0xe599, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `grip-vertical` in the Bold style.
+  static const IconData gripVertical =
+      IconData(0xe59a, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `hamburger-menu` in the Bold style.
   static const IconData hamburgerMenu =
       IconData(0xe1ee, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `hand` in the Bold style.
+  static const IconData hand =
+      IconData(0xe59b, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `hand-grab` in the Bold style.
+  static const IconData handGrab =
+      IconData(0xe59c, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `hand-heart` in the Bold style.
   static const IconData handHeart =
@@ -2080,6 +2660,10 @@ abstract final class SolarIconsBold {
   /// Solar `heart-lock` in the Bold style.
   static const IconData heartLock =
       IconData(0xe203, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `heart-off` in the Bold style.
+  static const IconData heartOff =
+      IconData(0xe59d, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `heart-pulse-2` in the Bold style.
   static const IconData heartPulse2 =
@@ -2249,6 +2833,14 @@ abstract final class SolarIconsBold {
   static const IconData infoSquare =
       IconData(0xe22d, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `intersect` in the Bold style.
+  static const IconData intersect =
+      IconData(0xe59e, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `intersect-minimalistic` in the Bold style.
+  static const IconData intersectMinimalistic =
+      IconData(0xe59f, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `jar-of-pills-2` in the Bold style.
   static const IconData jarOfPills2 =
       IconData(0xe22e, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -2256,6 +2848,14 @@ abstract final class SolarIconsBold {
   /// Solar `jar-of-pills` in the Bold style.
   static const IconData jarOfPills =
       IconData(0xe22f, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `kanban` in the Bold style.
+  static const IconData kanban =
+      IconData(0xe5a0, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `kanban-square` in the Bold style.
+  static const IconData kanbanSquare =
+      IconData(0xe5a1, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `key` in the Bold style.
   static const IconData key =
@@ -2321,6 +2921,22 @@ abstract final class SolarIconsBold {
   static const IconData laptopMinimalistic =
       IconData(0xe23f, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `layer-arrow-down` in the Bold style.
+  static const IconData layerArrowDown =
+      IconData(0xe5a2, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `layer-arrow-up` in the Bold style.
+  static const IconData layerArrowUp =
+      IconData(0xe5a3, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `layers-arrow-down` in the Bold style.
+  static const IconData layersArrowDown =
+      IconData(0xe5a4, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `layers-arrow-up` in the Bold style.
+  static const IconData layersArrowUp =
+      IconData(0xe5a5, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `layers` in the Bold style.
   static const IconData layers =
       IconData(0xe240, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -2328,6 +2944,14 @@ abstract final class SolarIconsBold {
   /// Solar `layers-minimalistic` in the Bold style.
   static const IconData layersMinimalistic =
       IconData(0xe241, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `layout-freeform` in the Bold style.
+  static const IconData layoutFreeform =
+      IconData(0xe5a6, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `layout-list` in the Bold style.
+  static const IconData layoutList =
+      IconData(0xe5a7, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `leaf` in the Bold style.
   static const IconData leaf =
@@ -2425,6 +3049,14 @@ abstract final class SolarIconsBold {
   static const IconData listCheckMinimalistic =
       IconData(0xe259, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `list-collapse` in the Bold style.
+  static const IconData listCollapse =
+      IconData(0xe5a8, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-collapse-minimalistic` in the Bold style.
+  static const IconData listCollapseMinimalistic =
+      IconData(0xe5a9, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `list-cross` in the Bold style.
   static const IconData listCross =
       IconData(0xe25a, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -2449,6 +3081,46 @@ abstract final class SolarIconsBold {
   static const IconData listHeartMinimalistic =
       IconData(0xe25f, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `list-indent-decrease` in the Bold style.
+  static const IconData listIndentDecrease =
+      IconData(0xe5aa, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-indent-increase` in the Bold style.
+  static const IconData listIndentIncrease =
+      IconData(0xe5ab, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-minus` in the Bold style.
+  static const IconData listMinus =
+      IconData(0xe5ac, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-minus-minimalistic` in the Bold style.
+  static const IconData listMinusMinimalistic =
+      IconData(0xe5ad, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-ordered` in the Bold style.
+  static const IconData listOrdered =
+      IconData(0xe5ae, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-ordered-minimalistic` in the Bold style.
+  static const IconData listOrderedMinimalistic =
+      IconData(0xe5af, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-plus` in the Bold style.
+  static const IconData listPlus =
+      IconData(0xe5b0, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-plus-minimalistic` in the Bold style.
+  static const IconData listPlusMinimalistic =
+      IconData(0xe5b1, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-unordered` in the Bold style.
+  static const IconData listUnordered =
+      IconData(0xe5b2, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-unordered-minimalistic` in the Bold style.
+  static const IconData listUnorderedMinimalistic =
+      IconData(0xe5b3, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `list-up` in the Bold style.
   static const IconData listUp =
       IconData(0xe260, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -2460,6 +3132,10 @@ abstract final class SolarIconsBold {
   /// Solar `list-vertical` in the Bold style.
   static const IconData listVertical =
       IconData(0xe262, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `loader` in the Bold style.
+  static const IconData loader =
+      IconData(0xe5b4, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `lock` in the Bold style.
   static const IconData lock =
@@ -2545,6 +3221,18 @@ abstract final class SolarIconsBold {
   static const IconData magnifierBug =
       IconData(0xe277, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `magnifier-check` in the Bold style.
+  static const IconData magnifierCheck =
+      IconData(0xe5b5, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `magnifier-close` in the Bold style.
+  static const IconData magnifierClose =
+      IconData(0xe5b6, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `magnifier-slash` in the Bold style.
+  static const IconData magnifierSlash =
+      IconData(0xe5b7, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `magnifier-zoom-in` in the Bold style.
   static const IconData magnifierZoomIn =
       IconData(0xe278, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -2596,6 +3284,10 @@ abstract final class SolarIconsBold {
   /// Solar `map-point-hospital` in the Bold style.
   static const IconData mapPointHospital =
       IconData(0xe284, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `map-point-off` in the Bold style.
+  static const IconData mapPointOff =
+      IconData(0xe5b8, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `map-point-remove` in the Bold style.
   static const IconData mapPointRemove =
@@ -2709,13 +3401,25 @@ abstract final class SolarIconsBold {
   static const IconData menuDotsSquare =
       IconData(0xe2a0, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `menu-dots-vertical` in the Bold style.
+  static const IconData menuDotsVertical =
+      IconData(0xe5b9, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `microphone-2` in the Bold style.
   static const IconData microphone2 =
       IconData(0xe2a1, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `microphone-2-off` in the Bold style.
+  static const IconData microphone2Off =
+      IconData(0xe5ba, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `microphone-3` in the Bold style.
   static const IconData microphone3 =
       IconData(0xe2a2, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `microphone-3-off` in the Bold style.
+  static const IconData microphone3Off =
+      IconData(0xe5bb, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `microphone` in the Bold style.
   static const IconData microphone =
@@ -2724,6 +3428,14 @@ abstract final class SolarIconsBold {
   /// Solar `microphone-large` in the Bold style.
   static const IconData microphoneLarge =
       IconData(0xe2a4, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `microphone-large-off` in the Bold style.
+  static const IconData microphoneLargeOff =
+      IconData(0xe5bc, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `microphone-off` in the Bold style.
+  static const IconData microphoneOff =
+      IconData(0xe5bd, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `minimalistic-magnifer` in the Bold style.
   static const IconData minimalisticMagnifer =
@@ -2744,6 +3456,18 @@ abstract final class SolarIconsBold {
   /// Solar `minimalistic-magnifier-bug` in the Bold style.
   static const IconData minimalisticMagnifierBug =
       IconData(0xe2a9, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `minimalistic-magnifier-check` in the Bold style.
+  static const IconData minimalisticMagnifierCheck =
+      IconData(0xe5be, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `minimalistic-magnifier-close` in the Bold style.
+  static const IconData minimalisticMagnifierClose =
+      IconData(0xe5bf, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `minimalistic-magnifier-slash` in the Bold style.
+  static const IconData minimalisticMagnifierSlash =
+      IconData(0xe5c0, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `minimalistic-magnifier-zoom-in` in the Bold style.
   static const IconData minimalisticMagnifierZoomIn =
@@ -2849,9 +3573,33 @@ abstract final class SolarIconsBold {
   static const IconData mouseMinimalistic =
       IconData(0xe2c3, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `move-3d` in the Bold style.
+  static const IconData move3d =
+      IconData(0xe5c1, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `move` in the Bold style.
+  static const IconData move =
+      IconData(0xe5c2, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `move-circle` in the Bold style.
+  static const IconData moveCircle =
+      IconData(0xe5c3, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `move-horizontal` in the Bold style.
+  static const IconData moveHorizontal =
+      IconData(0xe5c4, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `move-square` in the Bold style.
+  static const IconData moveSquare =
+      IconData(0xe5c5, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `move-to-folder` in the Bold style.
   static const IconData moveToFolder =
       IconData(0xe2c4, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `move-vertical` in the Bold style.
+  static const IconData moveVertical =
+      IconData(0xe5c6, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `mug` in the Bold style.
   static const IconData mug =
@@ -2905,6 +3653,10 @@ abstract final class SolarIconsBold {
   static const IconData muted =
       IconData(0xe2d1, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `noise-square` in the Bold style.
+  static const IconData noiseSquare =
+      IconData(0xe5c7, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `notebook-2` in the Bold style.
   static const IconData notebook2 =
       IconData(0xe2d2, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -2953,6 +3705,10 @@ abstract final class SolarIconsBold {
   static const IconData objectScan =
       IconData(0xe2dd, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `opacity` in the Bold style.
+  static const IconData opacity =
+      IconData(0xe5c8, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `outgoing-call` in the Bold style.
   static const IconData outgoingCall =
       IconData(0xe2de, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -2973,6 +3729,10 @@ abstract final class SolarIconsBold {
   static const IconData paintBrush =
       IconData(0xe2e2, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `paint-bucket` in the Bold style.
+  static const IconData paintBucket =
+      IconData(0xe5c9, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `paint-roller` in the Bold style.
   static const IconData paintRoller =
       IconData(0xe2e3, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -2988,6 +3748,74 @@ abstract final class SolarIconsBold {
   /// Solar `palette-round` in the Bold style.
   static const IconData paletteRound =
       IconData(0xe2e6, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-bottom` in the Bold style.
+  static const IconData panelBottom =
+      IconData(0xe5ca, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-bottom-close` in the Bold style.
+  static const IconData panelBottomClose =
+      IconData(0xe5cb, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-bottom-open` in the Bold style.
+  static const IconData panelBottomOpen =
+      IconData(0xe5cc, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-left` in the Bold style.
+  static const IconData panelLeft =
+      IconData(0xe5cd, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-left-close` in the Bold style.
+  static const IconData panelLeftClose =
+      IconData(0xe5ce, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-left-open` in the Bold style.
+  static const IconData panelLeftOpen =
+      IconData(0xe5cf, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-right` in the Bold style.
+  static const IconData panelRight =
+      IconData(0xe5d0, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-right-close` in the Bold style.
+  static const IconData panelRightClose =
+      IconData(0xe5d1, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-right-open` in the Bold style.
+  static const IconData panelRightOpen =
+      IconData(0xe5d2, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-text-right` in the Bold style.
+  static const IconData panelTextRight =
+      IconData(0xe5d3, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-top` in the Bold style.
+  static const IconData panelTop =
+      IconData(0xe5d4, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-top-close` in the Bold style.
+  static const IconData panelTopClose =
+      IconData(0xe5d5, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-top-open` in the Bold style.
+  static const IconData panelTopOpen =
+      IconData(0xe5d6, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panels-bottom-left` in the Bold style.
+  static const IconData panelsBottomLeft =
+      IconData(0xe5d7, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panels-bottom-right` in the Bold style.
+  static const IconData panelsBottomRight =
+      IconData(0xe5d8, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panels-top-left` in the Bold style.
+  static const IconData panelsTopLeft =
+      IconData(0xe5d9, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panels-top-right` in the Bold style.
+  static const IconData panelsTopRight =
+      IconData(0xe5da, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `panorama` in the Bold style.
   static const IconData panorama =
@@ -3016,6 +3844,10 @@ abstract final class SolarIconsBold {
   /// Solar `paragraph-spacing` in the Bold style.
   static const IconData paragraphSpacing =
       IconData(0xe2ed, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `parentheses` in the Bold style.
+  static const IconData parentheses =
+      IconData(0xe5db, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `passport` in the Bold style.
   static const IconData passport =
@@ -3068,6 +3900,10 @@ abstract final class SolarIconsBold {
   /// Solar `people-nearby` in the Bold style.
   static const IconData peopleNearby =
       IconData(0xe2fa, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `percent` in the Bold style.
+  static const IconData percent =
+      IconData(0xe5dc, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `perfume` in the Bold style.
   static const IconData perfume =
@@ -3309,6 +4145,18 @@ abstract final class SolarIconsBold {
   static const IconData quitPip =
       IconData(0xe336, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `quote` in the Bold style.
+  static const IconData quote =
+      IconData(0xe5dd, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `quote-circle` in the Bold style.
+  static const IconData quoteCircle =
+      IconData(0xe5de, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `quote-square` in the Bold style.
+  static const IconData quoteSquare =
+      IconData(0xe5df, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `radar-2` in the Bold style.
   static const IconData radar2 =
       IconData(0xe337, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -3360,6 +4208,10 @@ abstract final class SolarIconsBold {
   /// Solar `record-square` in the Bold style.
   static const IconData recordSquare =
       IconData(0xe343, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rectangle` in the Bold style.
+  static const IconData rectangle =
+      IconData(0xe5e0, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `reel-2` in the Bold style.
   static const IconData reel2 =
@@ -3493,6 +4345,22 @@ abstract final class SolarIconsBold {
   static const IconData rollingPin =
       IconData(0xe364, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `rotate-anticlockwise-2` in the Bold style.
+  static const IconData rotateAnticlockwise2 =
+      IconData(0xe5e1, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rotate-anticlockwise` in the Bold style.
+  static const IconData rotateAnticlockwise =
+      IconData(0xe5e2, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rotate-clockwise-2` in the Bold style.
+  static const IconData rotateClockwise2 =
+      IconData(0xe5e3, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rotate-clockwise` in the Bold style.
+  static const IconData rotateClockwise =
+      IconData(0xe5e4, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `round-alt-arrow-down` in the Bold style.
   static const IconData roundAltArrowDown =
       IconData(0xe365, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -3605,6 +4473,18 @@ abstract final class SolarIconsBold {
   static const IconData roundedMagnifierBug =
       IconData(0xe380, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `rounded-magnifier-check` in the Bold style.
+  static const IconData roundedMagnifierCheck =
+      IconData(0xe5e5, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rounded-magnifier-close` in the Bold style.
+  static const IconData roundedMagnifierClose =
+      IconData(0xe5e6, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rounded-magnifier-slash` in the Bold style.
+  static const IconData roundedMagnifierSlash =
+      IconData(0xe5e7, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `rounded-magnifier-zoom-in` in the Bold style.
   static const IconData roundedMagnifierZoomIn =
       IconData(0xe381, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -3628,6 +4508,22 @@ abstract final class SolarIconsBold {
   /// Solar `routing` in the Bold style.
   static const IconData routing =
       IconData(0xe386, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rows-2` in the Bold style.
+  static const IconData rows2 =
+      IconData(0xe5e8, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rows-3` in the Bold style.
+  static const IconData rows3 =
+      IconData(0xe5e9, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rows-4` in the Bold style.
+  static const IconData rows4 =
+      IconData(0xe5ea, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rss` in the Bold style.
+  static const IconData rss =
+      IconData(0xe5eb, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `ruble` in the Bold style.
   static const IconData ruble =
@@ -3741,6 +4637,10 @@ abstract final class SolarIconsBold {
   static const IconData sdCard =
       IconData(0xe3a2, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `selection` in the Bold style.
+  static const IconData selection =
+      IconData(0xe5ec, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `send-square` in the Bold style.
   static const IconData sendSquare =
       IconData(0xe3a3, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -3748,6 +4648,14 @@ abstract final class SolarIconsBold {
   /// Solar `send-twice-square` in the Bold style.
   static const IconData sendTwiceSquare =
       IconData(0xe3a4, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `separator-horizontal` in the Bold style.
+  static const IconData separatorHorizontal =
+      IconData(0xe5ed, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `separator-vertical` in the Bold style.
+  static const IconData separatorVertical =
+      IconData(0xe5ee, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `server-2` in the Bold style.
   static const IconData server2 =
@@ -3785,6 +4693,14 @@ abstract final class SolarIconsBold {
   static const IconData settingsMinimalistic =
       IconData(0xe3ad, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `shadow` in the Bold style.
+  static const IconData shadow =
+      IconData(0xe5ef, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `shape-rotate` in the Bold style.
+  static const IconData shapeRotate =
+      IconData(0xe5f0, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `share` in the Bold style.
   static const IconData share =
       IconData(0xe3ae, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -3792,6 +4708,10 @@ abstract final class SolarIconsBold {
   /// Solar `share-circle` in the Bold style.
   static const IconData shareCircle =
       IconData(0xe3af, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `sheet` in the Bold style.
+  static const IconData sheet =
+      IconData(0xe5f1, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `shield` in the Bold style.
   static const IconData shield =
@@ -3824,6 +4744,10 @@ abstract final class SolarIconsBold {
   /// Solar `shield-network` in the Bold style.
   static const IconData shieldNetwork =
       IconData(0xe3b7, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `shield-off` in the Bold style.
+  static const IconData shieldOff =
+      IconData(0xe5f2, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `shield-plus` in the Bold style.
   static const IconData shieldPlus =
@@ -3880,6 +4804,26 @@ abstract final class SolarIconsBold {
   /// Solar `siderbar` in the Bold style.
   static const IconData siderbar =
       IconData(0xe3c5, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `signal` in the Bold style.
+  static const IconData signal =
+      IconData(0xe5f3, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `signal-high` in the Bold style.
+  static const IconData signalHigh =
+      IconData(0xe5f4, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `signal-low` in the Bold style.
+  static const IconData signalLow =
+      IconData(0xe5f5, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `signal-medium` in the Bold style.
+  static const IconData signalMedium =
+      IconData(0xe5f6, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `signal-zero` in the Bold style.
+  static const IconData signalZero =
+      IconData(0xe5f7, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `signpost-2` in the Bold style.
   static const IconData signpost2 =
@@ -4097,6 +5041,10 @@ abstract final class SolarIconsBold {
   static const IconData soundwaveSquare =
       IconData(0xe3fb, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `sparkles` in the Bold style.
+  static const IconData sparkles =
+      IconData(0xe5f8, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `speaker` in the Bold style.
   static const IconData speaker =
       IconData(0xe3fc, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -4185,6 +5133,18 @@ abstract final class SolarIconsBold {
   static const IconData squareBottomUp =
       IconData(0xe411, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `square-dashed` in the Bold style.
+  static const IconData squareDashed =
+      IconData(0xe5f9, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `square-dot` in the Bold style.
+  static const IconData squareDot =
+      IconData(0xe5fa, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `square-dot-dashed` in the Bold style.
+  static const IconData squareDotDashed =
+      IconData(0xe5fb, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `square-double-alt-arrow-down` in the Bold style.
   static const IconData squareDoubleAltArrowDown =
       IconData(0xe412, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -4272,6 +5232,14 @@ abstract final class SolarIconsBold {
   /// Solar `star-fall-minimalistic` in the Bold style.
   static const IconData starFallMinimalistic =
       IconData(0xe427, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `star-half` in the Bold style.
+  static const IconData starHalf =
+      IconData(0xe5fc, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `star-off` in the Bold style.
+  static const IconData starOff =
+      IconData(0xe5fd, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `star-rainbow` in the Bold style.
   static const IconData starRainbow =
@@ -4389,6 +5357,14 @@ abstract final class SolarIconsBold {
   static const IconData subtitles =
       IconData(0xe444, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `subtract` in the Bold style.
+  static const IconData subtract =
+      IconData(0xe5fe, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `subtract-minimalistic` in the Bold style.
+  static const IconData subtractMinimalistic =
+      IconData(0xe5ff, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `suitcase` in the Bold style.
   static const IconData suitcase =
       IconData(0xe445, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -4444,6 +5420,34 @@ abstract final class SolarIconsBold {
   /// Solar `t-shirt` in the Bold style.
   static const IconData tShirt =
       IconData(0xe452, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `table` in the Bold style.
+  static const IconData table =
+      IconData(0xe600, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `table-cells-merge` in the Bold style.
+  static const IconData tableCellsMerge =
+      IconData(0xe601, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `table-cells-split` in the Bold style.
+  static const IconData tableCellsSplit =
+      IconData(0xe602, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `table-columns-split` in the Bold style.
+  static const IconData tableColumnsSplit =
+      IconData(0xe603, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `table-minimalistic` in the Bold style.
+  static const IconData tableMinimalistic =
+      IconData(0xe604, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `table-properties` in the Bold style.
+  static const IconData tableProperties =
+      IconData(0xe605, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `table-rows-split` in the Bold style.
+  static const IconData tableRowsSplit =
+      IconData(0xe606, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `tablet` in the Bold style.
   static const IconData tablet =
@@ -4537,6 +5541,10 @@ abstract final class SolarIconsBold {
   static const IconData textFormat =
       IconData(0xe469, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `text-heading` in the Bold style.
+  static const IconData textHeading =
+      IconData(0xe607, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `text-italic` in the Bold style.
   static const IconData textItalic =
       IconData(0xe46a, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -4597,6 +5605,14 @@ abstract final class SolarIconsBold {
   static const IconData toPip =
       IconData(0xe478, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `toggle-left` in the Bold style.
+  static const IconData toggleLeft =
+      IconData(0xe608, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `toggle-right` in the Bold style.
+  static const IconData toggleRight =
+      IconData(0xe609, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `toolbox` in the Bold style.
   static const IconData toolbox =
       IconData(0xe479, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -4628,6 +5644,10 @@ abstract final class SolarIconsBold {
   /// Solar `transfer-vertical` in the Bold style.
   static const IconData transferVertical =
       IconData(0xe480, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `translate` in the Bold style.
+  static const IconData translate =
+      IconData(0xe60a, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `translation-2` in the Bold style.
   static const IconData translation2 =
@@ -4760,6 +5780,10 @@ abstract final class SolarIconsBold {
   /// Solar `undo-right-square` in the Bold style.
   static const IconData undoRightSquare =
       IconData(0xe4a1, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `union` in the Bold style.
+  static const IconData union =
+      IconData(0xe60b, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `unlink` in the Bold style.
   static const IconData unlink =
@@ -4901,6 +5925,14 @@ abstract final class SolarIconsBold {
   static const IconData vanity =
       IconData(0xe4c4, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `variable-brackets` in the Bold style.
+  static const IconData variableBrackets =
+      IconData(0xe60c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `variable-square` in the Bold style.
+  static const IconData variableSquare =
+      IconData(0xe60d, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `verified-check` in the Bold style.
   static const IconData verifiedCheck =
       IconData(0xe4c5, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -5016,6 +6048,10 @@ abstract final class SolarIconsBold {
   /// Solar `wallpaper` in the Bold style.
   static const IconData wallpaper =
       IconData(0xe4e1, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `warp` in the Bold style.
+  static const IconData warp =
+      IconData(0xe60e, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `washing-machine` in the Bold style.
   static const IconData washingMachine =

@@ -1,13 +1,13 @@
 // GENERATED FILE - DO NOT EDIT.
 //
 // Regenerate with: python3 tool/generate.py
-// Source: Solar Icon Set by 480 Design, via @iconify-json/solar@1.2.10 (CC BY 4.0).
+// Source: Solar Icon Set by 480 Design, via @iconify-json/solar@1.2.15 (CC BY 4.0).
 
 import 'package:flutter/widgets.dart';
 
 import 'solar_duotone_icon_data.dart';
 
-/// The 1325 duotone icons of the Solar `BoldDuotone` style.
+/// The 1584 duotone icons of the Solar `BoldDuotone` style.
 ///
 /// ```dart
 /// SolarDuotoneIcon(SolarIconsBoldDuotone.icon4k)
@@ -317,6 +317,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe053, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `archive-close` in the BoldDuotone style.
+  static const SolarDuotoneIconData archiveClose = SolarDuotoneIconData(
+    primary: IconData(0xea5a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea5b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `archive-down` in the BoldDuotone style.
   static const SolarDuotoneIconData archiveDown = SolarDuotoneIconData(
     primary: IconData(0xe054, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -345,6 +352,14 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe05a, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe05b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `archive-minimalistic-close` in the BoldDuotone style.
+  static const SolarDuotoneIconData archiveMinimalisticClose =
+      SolarDuotoneIconData(
+    primary: IconData(0xea5c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea5d, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `archive-up` in the BoldDuotone style.
@@ -390,6 +405,20 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe067, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `arrow-down-from-line` in the BoldDuotone style.
+  static const SolarDuotoneIconData arrowDownFromLine = SolarDuotoneIconData(
+    primary: IconData(0xea5e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea5f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `arrow-down-to-line` in the BoldDuotone style.
+  static const SolarDuotoneIconData arrowDownToLine = SolarDuotoneIconData(
+    primary: IconData(0xea60, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea61, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `arrow-left` in the BoldDuotone style.
   static const SolarDuotoneIconData arrowLeft = SolarDuotoneIconData(
     primary: IconData(0xe068, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -402,6 +431,20 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe06a, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe06b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `arrow-left-from-line` in the BoldDuotone style.
+  static const SolarDuotoneIconData arrowLeftFromLine = SolarDuotoneIconData(
+    primary: IconData(0xea62, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea63, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `arrow-left-to-line` in the BoldDuotone style.
+  static const SolarDuotoneIconData arrowLeftToLine = SolarDuotoneIconData(
+    primary: IconData(0xea64, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea65, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `arrow-left-up` in the BoldDuotone style.
@@ -423,6 +466,20 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe070, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe071, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `arrow-right-from-line` in the BoldDuotone style.
+  static const SolarDuotoneIconData arrowRightFromLine = SolarDuotoneIconData(
+    primary: IconData(0xea66, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea67, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `arrow-right-to-line` in the BoldDuotone style.
+  static const SolarDuotoneIconData arrowRightToLine = SolarDuotoneIconData(
+    primary: IconData(0xea68, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea69, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `arrow-right-up` in the BoldDuotone style.
@@ -467,6 +524,27 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe07d, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `arrow-up-from-line` in the BoldDuotone style.
+  static const SolarDuotoneIconData arrowUpFromLine = SolarDuotoneIconData(
+    primary: IconData(0xea6a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea6b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `arrow-up-to-line` in the BoldDuotone style.
+  static const SolarDuotoneIconData arrowUpToLine = SolarDuotoneIconData(
+    primary: IconData(0xea6c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea6d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `asterisk` in the BoldDuotone style.
+  static const SolarDuotoneIconData asterisk = SolarDuotoneIconData(
+    primary: IconData(0xea6e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea6f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `asteroid` in the BoldDuotone style.
   static const SolarDuotoneIconData asteroid = SolarDuotoneIconData(
     primary: IconData(0xe07e, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -479,6 +557,9 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe080, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe081, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec60, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `augmented-reality` in the BoldDuotone style.
@@ -856,6 +937,20 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe0eb, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `blend` in the BoldDuotone style.
+  static const SolarDuotoneIconData blend = SolarDuotoneIconData(
+    primary: IconData(0xea70, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea71, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `blocks` in the BoldDuotone style.
+  static const SolarDuotoneIconData blocks = SolarDuotoneIconData(
+    primary: IconData(0xea72, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea73, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `bluetooth` in the BoldDuotone style.
   static const SolarDuotoneIconData bluetooth = SolarDuotoneIconData(
     primary: IconData(0xe0ec, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -1026,6 +1121,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe11b, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `bookmark-check` in the BoldDuotone style.
+  static const SolarDuotoneIconData bookmarkCheck = SolarDuotoneIconData(
+    primary: IconData(0xea74, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea75, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `bookmark-circle` in the BoldDuotone style.
   static const SolarDuotoneIconData bookmarkCircle = SolarDuotoneIconData(
     primary: IconData(0xe11c, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -1033,11 +1135,35 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe11d, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `bookmark-minus` in the BoldDuotone style.
+  static const SolarDuotoneIconData bookmarkMinus = SolarDuotoneIconData(
+    primary: IconData(0xea76, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea77, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `bookmark-off` in the BoldDuotone style.
+  static const SolarDuotoneIconData bookmarkOff = SolarDuotoneIconData(
+    primary: IconData(0xea78, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea79, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `bookmark-opened` in the BoldDuotone style.
   static const SolarDuotoneIconData bookmarkOpened = SolarDuotoneIconData(
     primary: IconData(0xe11e, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe11f, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec62, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
+  );
+
+  /// Solar `bookmark-plus` in the BoldDuotone style.
+  static const SolarDuotoneIconData bookmarkPlus = SolarDuotoneIconData(
+    primary: IconData(0xea7a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea7b, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `bookmark-square` in the BoldDuotone style.
@@ -1053,6 +1179,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe122, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe123, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `bookmark-x` in the BoldDuotone style.
+  static const SolarDuotoneIconData bookmarkX = SolarDuotoneIconData(
+    primary: IconData(0xea7c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea7d, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `boombox` in the BoldDuotone style.
@@ -1088,6 +1221,9 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe12c, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe12d, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec64, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `box-minimalistic` in the BoldDuotone style.
@@ -1095,6 +1231,23 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe12e, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe12f, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec66, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
+  );
+
+  /// Solar `braces` in the BoldDuotone style.
+  static const SolarDuotoneIconData braces = SolarDuotoneIconData(
+    primary: IconData(0xea7e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea7f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `brackets` in the BoldDuotone style.
+  static const SolarDuotoneIconData brackets = SolarDuotoneIconData(
+    primary: IconData(0xea80, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea81, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `brain` in the BoldDuotone style.
@@ -1123,6 +1276,16 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe136, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe137, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `brush-cross-pen` in the BoldDuotone style.
+  static const SolarDuotoneIconData brushCrossPen = SolarDuotoneIconData(
+    primary: IconData(0xea82, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea83, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec68, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `bug` in the BoldDuotone style.
@@ -1217,6 +1380,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe151, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `calendar-range` in the BoldDuotone style.
+  static const SolarDuotoneIconData calendarRange = SolarDuotoneIconData(
+    primary: IconData(0xea84, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea85, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `calendar-search` in the BoldDuotone style.
   static const SolarDuotoneIconData calendarSearch = SolarDuotoneIconData(
     primary: IconData(0xe152, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -1301,6 +1471,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe169, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `camera-off` in the BoldDuotone style.
+  static const SolarDuotoneIconData cameraOff = SolarDuotoneIconData(
+    primary: IconData(0xea86, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea87, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `camera-rotate` in the BoldDuotone style.
   static const SolarDuotoneIconData cameraRotate = SolarDuotoneIconData(
     primary: IconData(0xe16a, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -1320,6 +1497,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe16e, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe16f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `car` in the BoldDuotone style.
+  static const SolarDuotoneIconData car = SolarDuotoneIconData(
+    primary: IconData(0xea88, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea89, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `card-2` in the BoldDuotone style.
@@ -1562,6 +1746,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe1b3, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `chart-square-2` in the BoldDuotone style.
+  static const SolarDuotoneIconData chartSquare2 = SolarDuotoneIconData(
+    primary: IconData(0xea8a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea8b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `chart-square` in the BoldDuotone style.
   static const SolarDuotoneIconData chartSquare = SolarDuotoneIconData(
     primary: IconData(0xe1b4, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -1583,6 +1774,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe1b9, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `chat-round-add` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatRoundAdd = SolarDuotoneIconData(
+    primary: IconData(0xea8c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea8d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `chat-round` in the BoldDuotone style.
   static const SolarDuotoneIconData chatRound = SolarDuotoneIconData(
     primary: IconData(0xe1ba, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -1602,6 +1800,20 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe1be, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe1bf, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chat-round-close` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatRoundClose = SolarDuotoneIconData(
+    primary: IconData(0xea8e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea8f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chat-round-code` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatRoundCode = SolarDuotoneIconData(
+    primary: IconData(0xea90, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea91, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `chat-round-dots` in the BoldDuotone style.
@@ -1632,6 +1844,35 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe1c7, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `chat-round-off` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatRoundOff = SolarDuotoneIconData(
+    primary: IconData(0xea92, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea93, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chat-round-question-mark` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatRoundQuestionMark =
+      SolarDuotoneIconData(
+    primary: IconData(0xea94, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea95, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chat-round-quote` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatRoundQuote = SolarDuotoneIconData(
+    primary: IconData(0xea96, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea97, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chat-round-replay` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatRoundReplay = SolarDuotoneIconData(
+    primary: IconData(0xea98, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea99, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `chat-round-unread` in the BoldDuotone style.
   static const SolarDuotoneIconData chatRoundUnread = SolarDuotoneIconData(
     primary: IconData(0xe1c8, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -1646,11 +1887,25 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe1cb, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `chat-round-warning` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatRoundWarning = SolarDuotoneIconData(
+    primary: IconData(0xea9a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea9b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `chat-square-2` in the BoldDuotone style.
   static const SolarDuotoneIconData chatSquare2 = SolarDuotoneIconData(
     primary: IconData(0xe1cc, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe1cd, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chat-square-add` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatSquareAdd = SolarDuotoneIconData(
+    primary: IconData(0xea9c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea9d, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `chat-square-arrow` in the BoldDuotone style.
@@ -1681,11 +1936,25 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe1d5, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `chat-square-close` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatSquareClose = SolarDuotoneIconData(
+    primary: IconData(0xea9e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xea9f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `chat-square-code` in the BoldDuotone style.
   static const SolarDuotoneIconData chatSquareCode = SolarDuotoneIconData(
     primary: IconData(0xe1d6, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe1d7, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chat-square-dots` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatSquareDots = SolarDuotoneIconData(
+    primary: IconData(0xeaa0, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaa1, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `chat-square-like` in the BoldDuotone style.
@@ -1695,11 +1964,68 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe1d9, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `chat-square-line` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatSquareLine = SolarDuotoneIconData(
+    primary: IconData(0xeaa2, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaa3, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chat-square-off` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatSquareOff = SolarDuotoneIconData(
+    primary: IconData(0xeaa4, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaa5, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chat-square-question-mark` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatSquareQuestionMark =
+      SolarDuotoneIconData(
+    primary: IconData(0xeaa6, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaa7, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chat-square-quote` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatSquareQuote = SolarDuotoneIconData(
+    primary: IconData(0xeaa8, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaa9, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chat-square-replay` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatSquareReplay = SolarDuotoneIconData(
+    primary: IconData(0xeaaa, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaab, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chat-square-unread` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatSquareUnread = SolarDuotoneIconData(
+    primary: IconData(0xeaac, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaad, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chat-square-warning` in the BoldDuotone style.
+  static const SolarDuotoneIconData chatSquareWarning = SolarDuotoneIconData(
+    primary: IconData(0xeaae, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaaf, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `chat-unread` in the BoldDuotone style.
   static const SolarDuotoneIconData chatUnread = SolarDuotoneIconData(
     primary: IconData(0xe1da, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe1db, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `check` in the BoldDuotone style.
+  static const SolarDuotoneIconData check = SolarDuotoneIconData(
+    primary: IconData(0xeab0, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeab1, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `check-circle` in the BoldDuotone style.
@@ -1721,6 +2047,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe1e0, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe1e1, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `checkerboard` in the BoldDuotone style.
+  static const SolarDuotoneIconData checkerboard = SolarDuotoneIconData(
+    primary: IconData(0xeab2, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeab3, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `checklist` in the BoldDuotone style.
@@ -1759,6 +2092,63 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe1eb, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `chevron-first` in the BoldDuotone style.
+  static const SolarDuotoneIconData chevronFirst = SolarDuotoneIconData(
+    primary: IconData(0xeab4, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeab5, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chevron-last` in the BoldDuotone style.
+  static const SolarDuotoneIconData chevronLast = SolarDuotoneIconData(
+    primary: IconData(0xeab6, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeab7, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chevrons-down-up` in the BoldDuotone style.
+  static const SolarDuotoneIconData chevronsDownUp = SolarDuotoneIconData(
+    primary: IconData(0xeab8, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeab9, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chevrons-left-right` in the BoldDuotone style.
+  static const SolarDuotoneIconData chevronsLeftRight = SolarDuotoneIconData(
+    primary: IconData(0xeaba, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeabb, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chevrons-left-right-ellipsis` in the BoldDuotone style.
+  static const SolarDuotoneIconData chevronsLeftRightEllipsis =
+      SolarDuotoneIconData(
+    primary: IconData(0xeabc, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeabd, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chevrons-right-left` in the BoldDuotone style.
+  static const SolarDuotoneIconData chevronsRightLeft = SolarDuotoneIconData(
+    primary: IconData(0xeabe, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeabf, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `chevrons-up-down` in the BoldDuotone style.
+  static const SolarDuotoneIconData chevronsUpDown = SolarDuotoneIconData(
+    primary: IconData(0xeac0, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeac1, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `circle` in the BoldDuotone style.
+  static const SolarDuotoneIconData circle = SolarDuotoneIconData(
+    primary: IconData(0xeac2, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeac3, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `circle-bottom-down` in the BoldDuotone style.
   static const SolarDuotoneIconData circleBottomDown = SolarDuotoneIconData(
     primary: IconData(0xe1ec, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -1771,6 +2161,27 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe1ee, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe1ef, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `circle-dashed` in the BoldDuotone style.
+  static const SolarDuotoneIconData circleDashed = SolarDuotoneIconData(
+    primary: IconData(0xeac4, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeac5, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `circle-dot` in the BoldDuotone style.
+  static const SolarDuotoneIconData circleDot = SolarDuotoneIconData(
+    primary: IconData(0xeac6, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeac7, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `circle-dot-dashed` in the BoldDuotone style.
+  static const SolarDuotoneIconData circleDotDashed = SolarDuotoneIconData(
+    primary: IconData(0xeac8, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeac9, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `circle-top-down` in the BoldDuotone style.
@@ -1857,6 +2268,20 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe207, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `clipboard-clock` in the BoldDuotone style.
+  static const SolarDuotoneIconData clipboardClock = SolarDuotoneIconData(
+    primary: IconData(0xeaca, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeacb, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `clipboard-copy` in the BoldDuotone style.
+  static const SolarDuotoneIconData clipboardCopy = SolarDuotoneIconData(
+    primary: IconData(0xeacc, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeacd, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `clipboard-heart` in the BoldDuotone style.
   static const SolarDuotoneIconData clipboardHeart = SolarDuotoneIconData(
     primary: IconData(0xe208, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -1871,6 +2296,20 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe20b, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `clipboard-minus` in the BoldDuotone style.
+  static const SolarDuotoneIconData clipboardMinus = SolarDuotoneIconData(
+    primary: IconData(0xeace, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeacf, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `clipboard-paste` in the BoldDuotone style.
+  static const SolarDuotoneIconData clipboardPaste = SolarDuotoneIconData(
+    primary: IconData(0xead0, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xead1, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `clipboard-remove` in the BoldDuotone style.
   static const SolarDuotoneIconData clipboardRemove = SolarDuotoneIconData(
     primary: IconData(0xe20c, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -1883,6 +2322,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe20e, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe20f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `clipboard-type` in the BoldDuotone style.
+  static const SolarDuotoneIconData clipboardType = SolarDuotoneIconData(
+    primary: IconData(0xead2, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xead3, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `clock-circle` in the BoldDuotone style.
@@ -1989,6 +2435,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe22c, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe22d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `cloud-off` in the BoldDuotone style.
+  static const SolarDuotoneIconData cloudOff = SolarDuotoneIconData(
+    primary: IconData(0xead4, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xead5, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `cloud-plus` in the BoldDuotone style.
@@ -2139,6 +2592,34 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe257, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `columns-2` in the BoldDuotone style.
+  static const SolarDuotoneIconData columns2 = SolarDuotoneIconData(
+    primary: IconData(0xead6, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xead7, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `columns-3` in the BoldDuotone style.
+  static const SolarDuotoneIconData columns3 = SolarDuotoneIconData(
+    primary: IconData(0xead8, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xead9, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `columns-3-cog` in the BoldDuotone style.
+  static const SolarDuotoneIconData columns3Cog = SolarDuotoneIconData(
+    primary: IconData(0xeada, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeadb, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `columns-4` in the BoldDuotone style.
+  static const SolarDuotoneIconData columns4 = SolarDuotoneIconData(
+    primary: IconData(0xeadc, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeadd, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `command` in the BoldDuotone style.
   static const SolarDuotoneIconData command = SolarDuotoneIconData(
     primary: IconData(0xe258, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -2223,11 +2704,60 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe26f, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `container` in the BoldDuotone style.
+  static const SolarDuotoneIconData container = SolarDuotoneIconData(
+    primary: IconData(0xeade, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeadf, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `contrast` in the BoldDuotone style.
+  static const SolarDuotoneIconData contrast = SolarDuotoneIconData(
+    primary: IconData(0xeae0, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeae1, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `cookie` in the BoldDuotone style.
+  static const SolarDuotoneIconData cookie = SolarDuotoneIconData(
+    primary: IconData(0xeae2, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeae3, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `copy-add` in the BoldDuotone style.
+  static const SolarDuotoneIconData copyAdd = SolarDuotoneIconData(
+    primary: IconData(0xeae4, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeae5, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `copy` in the BoldDuotone style.
   static const SolarDuotoneIconData copy = SolarDuotoneIconData(
     primary: IconData(0xe270, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe271, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `copy-check` in the BoldDuotone style.
+  static const SolarDuotoneIconData copyCheck = SolarDuotoneIconData(
+    primary: IconData(0xeae6, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeae7, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `copy-close` in the BoldDuotone style.
+  static const SolarDuotoneIconData copyClose = SolarDuotoneIconData(
+    primary: IconData(0xeae8, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeae9, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `copy-minus` in the BoldDuotone style.
+  static const SolarDuotoneIconData copyMinus = SolarDuotoneIconData(
+    primary: IconData(0xeaea, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaeb, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `copyright` in the BoldDuotone style.
@@ -2417,6 +2947,9 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe2a6, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe2a7, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec6a, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `delivery` in the BoldDuotone style.
@@ -2494,6 +3027,20 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe2bc, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe2bd, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `distort` in the BoldDuotone style.
+  static const SolarDuotoneIconData distort = SolarDuotoneIconData(
+    primary: IconData(0xeaec, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaed, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `divide` in the BoldDuotone style.
+  static const SolarDuotoneIconData divide = SolarDuotoneIconData(
+    primary: IconData(0xeaee, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaef, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `dna` in the BoldDuotone style.
@@ -2729,6 +3276,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe2ff, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `ellipse` in the BoldDuotone style.
+  static const SolarDuotoneIconData ellipse = SolarDuotoneIconData(
+    primary: IconData(0xeaf0, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaf1, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `emoji-funny-circle` in the BoldDuotone style.
   static const SolarDuotoneIconData emojiFunnyCircle = SolarDuotoneIconData(
     primary: IconData(0xe300, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -2755,6 +3309,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe306, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe307, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `equal` in the BoldDuotone style.
+  static const SolarDuotoneIconData equal = SolarDuotoneIconData(
+    primary: IconData(0xeaf2, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaf3, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `eraser` in the BoldDuotone style.
@@ -2790,6 +3351,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe310, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe311, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `exclude` in the BoldDuotone style.
+  static const SolarDuotoneIconData exclude = SolarDuotoneIconData(
+    primary: IconData(0xeaf4, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaf5, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `exit` in the BoldDuotone style.
@@ -2839,6 +3407,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe31e, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe31f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `eye-off` in the BoldDuotone style.
+  static const SolarDuotoneIconData eyeOff = SolarDuotoneIconData(
+    primary: IconData(0xeaf6, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaf7, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `eye-scan` in the BoldDuotone style.
@@ -2904,6 +3479,30 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe331, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `file-add` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileAdd = SolarDuotoneIconData(
+    primary: IconData(0xeaf8, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaf9, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-audio` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileAudio = SolarDuotoneIconData(
+    primary: IconData(0xeafa, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeafb, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-badge` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileBadge = SolarDuotoneIconData(
+    primary: IconData(0xeafc, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeafd, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec6c, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
+  );
+
   /// Solar `file` in the BoldDuotone style.
   static const SolarDuotoneIconData file = SolarDuotoneIconData(
     primary: IconData(0xe332, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -2911,11 +3510,53 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe333, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `file-braces` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileBraces = SolarDuotoneIconData(
+    primary: IconData(0xeafe, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeaff, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-chart-2` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileChart2 = SolarDuotoneIconData(
+    primary: IconData(0xeb00, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb01, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-chart` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileChart = SolarDuotoneIconData(
+    primary: IconData(0xeb02, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb03, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `file-check` in the BoldDuotone style.
   static const SolarDuotoneIconData fileCheck = SolarDuotoneIconData(
     primary: IconData(0xe334, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe335, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-cloud` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileCloud = SolarDuotoneIconData(
+    primary: IconData(0xeb04, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb05, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-code` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileCode = SolarDuotoneIconData(
+    primary: IconData(0xeb06, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb07, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-cog` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileCog = SolarDuotoneIconData(
+    primary: IconData(0xeb08, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb09, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `file-corrupted` in the BoldDuotone style.
@@ -2946,11 +3587,63 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe33d, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `file-figma` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileFigma = SolarDuotoneIconData(
+    primary: IconData(0xeb0a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb0b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-image` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileImage = SolarDuotoneIconData(
+    primary: IconData(0xeb0c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb0d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `file-left` in the BoldDuotone style.
   static const SolarDuotoneIconData fileLeft = SolarDuotoneIconData(
     primary: IconData(0xe33e, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe33f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-lock` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileLock = SolarDuotoneIconData(
+    primary: IconData(0xeb0e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb0f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-minus` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileMinus = SolarDuotoneIconData(
+    primary: IconData(0xeb10, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb11, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-pen` in the BoldDuotone style.
+  static const SolarDuotoneIconData filePen = SolarDuotoneIconData(
+    primary: IconData(0xeb12, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb13, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec6e, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
+  );
+
+  /// Solar `file-play` in the BoldDuotone style.
+  static const SolarDuotoneIconData filePlay = SolarDuotoneIconData(
+    primary: IconData(0xeb14, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb15, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-question-mark` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileQuestionMark = SolarDuotoneIconData(
+    primary: IconData(0xeb16, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb17, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `file-remove` in the BoldDuotone style.
@@ -2967,11 +3660,32 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe343, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `file-search` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileSearch = SolarDuotoneIconData(
+    primary: IconData(0xeb18, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb19, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `file-send` in the BoldDuotone style.
   static const SolarDuotoneIconData fileSend = SolarDuotoneIconData(
     primary: IconData(0xe344, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe345, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-signal` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileSignal = SolarDuotoneIconData(
+    primary: IconData(0xeb1a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb1b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-sliders` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileSliders = SolarDuotoneIconData(
+    primary: IconData(0xeb1c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb1d, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `file-smile` in the BoldDuotone style.
@@ -2981,11 +3695,73 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe347, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `file-spreadsheet` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileSpreadsheet = SolarDuotoneIconData(
+    primary: IconData(0xeb1e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb1f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-stack` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileStack = SolarDuotoneIconData(
+    primary: IconData(0xeb20, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb21, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec70, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
+  );
+
+  /// Solar `file-terminal` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileTerminal = SolarDuotoneIconData(
+    primary: IconData(0xeb22, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb23, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `file-text` in the BoldDuotone style.
   static const SolarDuotoneIconData fileText = SolarDuotoneIconData(
     primary: IconData(0xe348, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe349, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-type` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileType = SolarDuotoneIconData(
+    primary: IconData(0xeb24, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb25, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-user` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileUser = SolarDuotoneIconData(
+    primary: IconData(0xeb26, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb27, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-video-camera` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileVideoCamera = SolarDuotoneIconData(
+    primary: IconData(0xeb28, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb29, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec72, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
+  );
+
+  /// Solar `file-warning` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileWarning = SolarDuotoneIconData(
+    primary: IconData(0xeb2a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb2b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `file-zip` in the BoldDuotone style.
+  static const SolarDuotoneIconData fileZip = SolarDuotoneIconData(
+    primary: IconData(0xeb2c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb2d, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `filter` in the BoldDuotone style.
@@ -2995,11 +3771,21 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe34b, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `filter-close` in the BoldDuotone style.
+  static const SolarDuotoneIconData filterClose = SolarDuotoneIconData(
+    primary: IconData(0xeb2e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb2f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `filters` in the BoldDuotone style.
   static const SolarDuotoneIconData filters = SolarDuotoneIconData(
     primary: IconData(0xe34c, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe34d, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec74, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `fire` in the BoldDuotone style.
@@ -3065,6 +3851,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe35f, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `flat-brush` in the BoldDuotone style.
+  static const SolarDuotoneIconData flatBrush = SolarDuotoneIconData(
+    primary: IconData(0xeb30, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb31, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `flip-horizontal` in the BoldDuotone style.
   static const SolarDuotoneIconData flipHorizontal = SolarDuotoneIconData(
     primary: IconData(0xe360, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -3122,11 +3915,53 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe36f, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `folder-clock` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderClock = SolarDuotoneIconData(
+    primary: IconData(0xeb32, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb33, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `folder-cloud` in the BoldDuotone style.
   static const SolarDuotoneIconData folderCloud = SolarDuotoneIconData(
     primary: IconData(0xe370, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe371, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `folder-code` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderCode = SolarDuotoneIconData(
+    primary: IconData(0xeb34, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb35, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `folder-cog` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderCog = SolarDuotoneIconData(
+    primary: IconData(0xeb36, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb37, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `folder-dot` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderDot = SolarDuotoneIconData(
+    primary: IconData(0xeb38, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb39, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `folder-dot-open` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderDotOpen = SolarDuotoneIconData(
+    primary: IconData(0xeb3a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb3b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `folder-down` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderDown = SolarDuotoneIconData(
+    primary: IconData(0xeb3c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb3d, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `folder-error` in the BoldDuotone style.
@@ -3166,11 +4001,39 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe37b, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `folder-git` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderGit = SolarDuotoneIconData(
+    primary: IconData(0xeb3e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb3f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `folder-kanban` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderKanban = SolarDuotoneIconData(
+    primary: IconData(0xeb40, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb41, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `folder-lock` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderLock = SolarDuotoneIconData(
+    primary: IconData(0xeb42, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb43, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `folder-open` in the BoldDuotone style.
   static const SolarDuotoneIconData folderOpen = SolarDuotoneIconData(
     primary: IconData(0xe37c, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe37d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `folder-output` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderOutput = SolarDuotoneIconData(
+    primary: IconData(0xeb44, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb45, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `folder-path-connect` in the BoldDuotone style.
@@ -3180,6 +4043,20 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe37f, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `folder-pen` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderPen = SolarDuotoneIconData(
+    primary: IconData(0xeb46, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb47, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `folder-search` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderSearch = SolarDuotoneIconData(
+    primary: IconData(0xeb48, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb49, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `folder-security` in the BoldDuotone style.
   static const SolarDuotoneIconData folderSecurity = SolarDuotoneIconData(
     primary: IconData(0xe380, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -3187,11 +4064,53 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe381, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `folder-symlink` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderSymlink = SolarDuotoneIconData(
+    primary: IconData(0xeb4a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb4b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `folder-sync` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderSync = SolarDuotoneIconData(
+    primary: IconData(0xeb4c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb4d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `folder-tree` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderTree = SolarDuotoneIconData(
+    primary: IconData(0xeb4e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb4f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `folder-up` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderUp = SolarDuotoneIconData(
+    primary: IconData(0xeb50, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb51, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `folder-with-files` in the BoldDuotone style.
   static const SolarDuotoneIconData folderWithFiles = SolarDuotoneIconData(
     primary: IconData(0xe382, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe383, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `folder-zip` in the BoldDuotone style.
+  static const SolarDuotoneIconData folderZip = SolarDuotoneIconData(
+    primary: IconData(0xeb52, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb53, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `folders` in the BoldDuotone style.
+  static const SolarDuotoneIconData folders = SolarDuotoneIconData(
+    primary: IconData(0xeb54, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb55, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `football` in the BoldDuotone style.
@@ -3241,6 +4160,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe390, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe391, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `frame` in the BoldDuotone style.
+  static const SolarDuotoneIconData frame = SolarDuotoneIconData(
+    primary: IconData(0xeb56, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb57, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `fridge` in the BoldDuotone style.
@@ -3446,6 +4372,48 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe3cb, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `git-branch` in the BoldDuotone style.
+  static const SolarDuotoneIconData gitBranch = SolarDuotoneIconData(
+    primary: IconData(0xeb58, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb59, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `git-commit` in the BoldDuotone style.
+  static const SolarDuotoneIconData gitCommit = SolarDuotoneIconData(
+    primary: IconData(0xeb5a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb5b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `git-diff` in the BoldDuotone style.
+  static const SolarDuotoneIconData gitDiff = SolarDuotoneIconData(
+    primary: IconData(0xeb5c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb5d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `git-fork` in the BoldDuotone style.
+  static const SolarDuotoneIconData gitFork = SolarDuotoneIconData(
+    primary: IconData(0xeb5e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb5f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `git-graph` in the BoldDuotone style.
+  static const SolarDuotoneIconData gitGraph = SolarDuotoneIconData(
+    primary: IconData(0xeb60, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb61, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `git-pull-request` in the BoldDuotone style.
+  static const SolarDuotoneIconData gitPullRequest = SolarDuotoneIconData(
+    primary: IconData(0xeb62, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb63, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `glasses` in the BoldDuotone style.
   static const SolarDuotoneIconData glasses = SolarDuotoneIconData(
     primary: IconData(0xe3cc, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -3486,6 +4454,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe3d6, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe3d7, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `gradient` in the BoldDuotone style.
+  static const SolarDuotoneIconData gradient = SolarDuotoneIconData(
+    primary: IconData(0xeb64, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb65, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `graph` in the BoldDuotone style.
@@ -3530,11 +4505,88 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe3e3, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `grid-2x2-add` in the BoldDuotone style.
+  static const SolarDuotoneIconData grid2x2Add = SolarDuotoneIconData(
+    primary: IconData(0xeb66, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb67, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `grid-2x2` in the BoldDuotone style.
+  static const SolarDuotoneIconData grid2x2 = SolarDuotoneIconData(
+    primary: IconData(0xeb68, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb69, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `grid-2x2-check` in the BoldDuotone style.
+  static const SolarDuotoneIconData grid2x2Check = SolarDuotoneIconData(
+    primary: IconData(0xeb6a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb6b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `grid-2x2-close` in the BoldDuotone style.
+  static const SolarDuotoneIconData grid2x2Close = SolarDuotoneIconData(
+    primary: IconData(0xeb6c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb6d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `grid-3x2` in the BoldDuotone style.
+  static const SolarDuotoneIconData grid3x2 = SolarDuotoneIconData(
+    primary: IconData(0xeb6e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb6f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `grid-3x3` in the BoldDuotone style.
+  static const SolarDuotoneIconData grid3x3 = SolarDuotoneIconData(
+    primary: IconData(0xeb70, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb71, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `grip` in the BoldDuotone style.
+  static const SolarDuotoneIconData grip = SolarDuotoneIconData(
+    primary: IconData(0xeb72, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb73, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `grip-horizontal` in the BoldDuotone style.
+  static const SolarDuotoneIconData gripHorizontal = SolarDuotoneIconData(
+    primary: IconData(0xeb74, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb75, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `grip-vertical` in the BoldDuotone style.
+  static const SolarDuotoneIconData gripVertical = SolarDuotoneIconData(
+    primary: IconData(0xeb76, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb77, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `hamburger-menu` in the BoldDuotone style.
   static const SolarDuotoneIconData hamburgerMenu = SolarDuotoneIconData(
     primary: IconData(0xe3e4, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe3e5, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `hand` in the BoldDuotone style.
+  static const SolarDuotoneIconData hand = SolarDuotoneIconData(
+    primary: IconData(0xeb78, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb79, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `hand-grab` in the BoldDuotone style.
+  static const SolarDuotoneIconData handGrab = SolarDuotoneIconData(
+    primary: IconData(0xeb7a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb7b, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `hand-heart` in the BoldDuotone style.
@@ -3683,6 +4735,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe40e, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe40f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `heart-off` in the BoldDuotone style.
+  static const SolarDuotoneIconData heartOff = SolarDuotoneIconData(
+    primary: IconData(0xeb7c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb7d, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `heart-pulse-2` in the BoldDuotone style.
@@ -4000,6 +5059,21 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe469, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `intersect` in the BoldDuotone style.
+  static const SolarDuotoneIconData intersect = SolarDuotoneIconData(
+    primary: IconData(0xeb7e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb7f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `intersect-minimalistic` in the BoldDuotone style.
+  static const SolarDuotoneIconData intersectMinimalistic =
+      SolarDuotoneIconData(
+    primary: IconData(0xeb80, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb81, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `iphone` in the BoldDuotone style.
   static const SolarDuotoneIconData iphone = SolarDuotoneIconData(
     primary: IconData(0xe46a, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -4019,6 +5093,20 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe46e, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe46f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `kanban` in the BoldDuotone style.
+  static const SolarDuotoneIconData kanban = SolarDuotoneIconData(
+    primary: IconData(0xeb82, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb83, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `kanban-square` in the BoldDuotone style.
+  static const SolarDuotoneIconData kanbanSquare = SolarDuotoneIconData(
+    primary: IconData(0xeb84, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb85, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `key` in the BoldDuotone style.
@@ -4136,11 +5224,42 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe48f, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `layer-arrow-down` in the BoldDuotone style.
+  static const SolarDuotoneIconData layerArrowDown = SolarDuotoneIconData(
+    primary: IconData(0xeb86, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb87, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `layer-arrow-up` in the BoldDuotone style.
+  static const SolarDuotoneIconData layerArrowUp = SolarDuotoneIconData(
+    primary: IconData(0xeb88, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb89, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `layers-arrow-down` in the BoldDuotone style.
+  static const SolarDuotoneIconData layersArrowDown = SolarDuotoneIconData(
+    primary: IconData(0xeb8a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb8b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `layers-arrow-up` in the BoldDuotone style.
+  static const SolarDuotoneIconData layersArrowUp = SolarDuotoneIconData(
+    primary: IconData(0xeb8c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb8d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `layers` in the BoldDuotone style.
   static const SolarDuotoneIconData layers = SolarDuotoneIconData(
     primary: IconData(0xe490, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe491, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec76, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `layers-minimalistic` in the BoldDuotone style.
@@ -4148,6 +5267,23 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe492, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe493, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec78, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
+  );
+
+  /// Solar `layout-freeform` in the BoldDuotone style.
+  static const SolarDuotoneIconData layoutFreeform = SolarDuotoneIconData(
+    primary: IconData(0xeb8e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb8f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `layout-list` in the BoldDuotone style.
+  static const SolarDuotoneIconData layoutList = SolarDuotoneIconData(
+    primary: IconData(0xeb90, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb91, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `leaf` in the BoldDuotone style.
@@ -4155,6 +5291,11 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe494, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe495, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec7a, fontFamily: fontFamily, fontPackage: fontPackage),
+      IconData(0xec7c, fontFamily: fontFamily, fontPackage: fontPackage),
+      IconData(0xec7e, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `letter` in the BoldDuotone style.
@@ -4337,6 +5478,21 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe4c7, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `list-collapse` in the BoldDuotone style.
+  static const SolarDuotoneIconData listCollapse = SolarDuotoneIconData(
+    primary: IconData(0xeb92, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb93, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `list-collapse-minimalistic` in the BoldDuotone style.
+  static const SolarDuotoneIconData listCollapseMinimalistic =
+      SolarDuotoneIconData(
+    primary: IconData(0xeb94, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb95, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `list-cross` in the BoldDuotone style.
   static const SolarDuotoneIconData listCross = SolarDuotoneIconData(
     primary: IconData(0xe4c8, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -4381,6 +5537,79 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe4d3, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `list-indent-decrease` in the BoldDuotone style.
+  static const SolarDuotoneIconData listIndentDecrease = SolarDuotoneIconData(
+    primary: IconData(0xeb96, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb97, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `list-indent-increase` in the BoldDuotone style.
+  static const SolarDuotoneIconData listIndentIncrease = SolarDuotoneIconData(
+    primary: IconData(0xeb98, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb99, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `list-minus` in the BoldDuotone style.
+  static const SolarDuotoneIconData listMinus = SolarDuotoneIconData(
+    primary: IconData(0xeb9a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb9b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `list-minus-minimalistic` in the BoldDuotone style.
+  static const SolarDuotoneIconData listMinusMinimalistic =
+      SolarDuotoneIconData(
+    primary: IconData(0xeb9c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb9d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `list-ordered` in the BoldDuotone style.
+  static const SolarDuotoneIconData listOrdered = SolarDuotoneIconData(
+    primary: IconData(0xeb9e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeb9f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `list-ordered-minimalistic` in the BoldDuotone style.
+  static const SolarDuotoneIconData listOrderedMinimalistic =
+      SolarDuotoneIconData(
+    primary: IconData(0xeba0, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeba1, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `list-plus` in the BoldDuotone style.
+  static const SolarDuotoneIconData listPlus = SolarDuotoneIconData(
+    primary: IconData(0xeba2, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeba3, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `list-plus-minimalistic` in the BoldDuotone style.
+  static const SolarDuotoneIconData listPlusMinimalistic = SolarDuotoneIconData(
+    primary: IconData(0xeba4, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeba5, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `list-unordered` in the BoldDuotone style.
+  static const SolarDuotoneIconData listUnordered = SolarDuotoneIconData(
+    primary: IconData(0xeba6, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeba7, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `list-unordered-minimalistic` in the BoldDuotone style.
+  static const SolarDuotoneIconData listUnorderedMinimalistic =
+      SolarDuotoneIconData(
+    primary: IconData(0xeba8, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xeba9, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `list-up` in the BoldDuotone style.
   static const SolarDuotoneIconData listUp = SolarDuotoneIconData(
     primary: IconData(0xe4d4, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -4400,6 +5629,16 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe4d8, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe4d9, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `loader` in the BoldDuotone style.
+  static const SolarDuotoneIconData loader = SolarDuotoneIconData(
+    primary: IconData(0xebaa, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebab, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec80, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `lock` in the BoldDuotone style.
@@ -4514,6 +5753,9 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe4f8, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe4f9, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec82, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `magic-stick` in the BoldDuotone style.
@@ -4598,6 +5840,27 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe510, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe511, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `magnifier-check` in the BoldDuotone style.
+  static const SolarDuotoneIconData magnifierCheck = SolarDuotoneIconData(
+    primary: IconData(0xebac, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebad, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `magnifier-close` in the BoldDuotone style.
+  static const SolarDuotoneIconData magnifierClose = SolarDuotoneIconData(
+    primary: IconData(0xebae, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebaf, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `magnifier-slash` in the BoldDuotone style.
+  static const SolarDuotoneIconData magnifierSlash = SolarDuotoneIconData(
+    primary: IconData(0xebb0, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebb1, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `magnifier-zoom-in` in the BoldDuotone style.
@@ -4698,6 +5961,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe52d, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `map-point-off` in the BoldDuotone style.
+  static const SolarDuotoneIconData mapPointOff = SolarDuotoneIconData(
+    primary: IconData(0xebb2, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebb3, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `map-point-remove` in the BoldDuotone style.
   static const SolarDuotoneIconData mapPointRemove = SolarDuotoneIconData(
     primary: IconData(0xe52e, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -4759,6 +6029,9 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe53e, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe53f, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec84, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `maximize` in the BoldDuotone style.
@@ -4902,6 +6175,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe567, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `menu-dots-vertical` in the BoldDuotone style.
+  static const SolarDuotoneIconData menuDotsVertical = SolarDuotoneIconData(
+    primary: IconData(0xebb4, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebb5, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `microphone-2` in the BoldDuotone style.
   static const SolarDuotoneIconData microphone2 = SolarDuotoneIconData(
     primary: IconData(0xe568, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -4909,11 +6189,25 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe569, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `microphone-2-off` in the BoldDuotone style.
+  static const SolarDuotoneIconData microphone2Off = SolarDuotoneIconData(
+    primary: IconData(0xebb6, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebb7, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `microphone-3` in the BoldDuotone style.
   static const SolarDuotoneIconData microphone3 = SolarDuotoneIconData(
     primary: IconData(0xe56a, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe56b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `microphone-3-off` in the BoldDuotone style.
+  static const SolarDuotoneIconData microphone3Off = SolarDuotoneIconData(
+    primary: IconData(0xebb8, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebb9, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `microphone` in the BoldDuotone style.
@@ -4928,6 +6222,20 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe56e, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe56f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `microphone-large-off` in the BoldDuotone style.
+  static const SolarDuotoneIconData microphoneLargeOff = SolarDuotoneIconData(
+    primary: IconData(0xebba, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebbb, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `microphone-off` in the BoldDuotone style.
+  static const SolarDuotoneIconData microphoneOff = SolarDuotoneIconData(
+    primary: IconData(0xebbc, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebbd, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `minimalistic-magnifer` in the BoldDuotone style.
@@ -4975,6 +6283,30 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe57a, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe57b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `minimalistic-magnifier-check` in the BoldDuotone style.
+  static const SolarDuotoneIconData minimalisticMagnifierCheck =
+      SolarDuotoneIconData(
+    primary: IconData(0xebbe, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebbf, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `minimalistic-magnifier-close` in the BoldDuotone style.
+  static const SolarDuotoneIconData minimalisticMagnifierClose =
+      SolarDuotoneIconData(
+    primary: IconData(0xebc0, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebc1, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `minimalistic-magnifier-slash` in the BoldDuotone style.
+  static const SolarDuotoneIconData minimalisticMagnifierSlash =
+      SolarDuotoneIconData(
+    primary: IconData(0xebc2, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebc3, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `minimalistic-magnifier-zoom-in` in the BoldDuotone style.
@@ -5162,11 +6494,53 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe5af, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `move-3d` in the BoldDuotone style.
+  static const SolarDuotoneIconData move3d = SolarDuotoneIconData(
+    primary: IconData(0xebc4, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebc5, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `move` in the BoldDuotone style.
+  static const SolarDuotoneIconData move = SolarDuotoneIconData(
+    primary: IconData(0xebc6, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebc7, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `move-circle` in the BoldDuotone style.
+  static const SolarDuotoneIconData moveCircle = SolarDuotoneIconData(
+    primary: IconData(0xebc8, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebc9, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `move-horizontal` in the BoldDuotone style.
+  static const SolarDuotoneIconData moveHorizontal = SolarDuotoneIconData(
+    primary: IconData(0xebca, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebcb, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `move-square` in the BoldDuotone style.
+  static const SolarDuotoneIconData moveSquare = SolarDuotoneIconData(
+    primary: IconData(0xebcc, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebcd, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `move-to-folder` in the BoldDuotone style.
   static const SolarDuotoneIconData moveToFolder = SolarDuotoneIconData(
     primary: IconData(0xe5b0, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe5b1, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `move-vertical` in the BoldDuotone style.
+  static const SolarDuotoneIconData moveVertical = SolarDuotoneIconData(
+    primary: IconData(0xebce, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebcf, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `mug` in the BoldDuotone style.
@@ -5260,6 +6634,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe5cb, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `noise-square` in the BoldDuotone style.
+  static const SolarDuotoneIconData noiseSquare = SolarDuotoneIconData(
+    primary: IconData(0xebd0, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebd1, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `notebook-2` in the BoldDuotone style.
   static const SolarDuotoneIconData notebook2 = SolarDuotoneIconData(
     primary: IconData(0xe5cc, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -5346,6 +6727,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe5e3, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `opacity` in the BoldDuotone style.
+  static const SolarDuotoneIconData opacity = SolarDuotoneIconData(
+    primary: IconData(0xebd2, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebd3, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `outgoing-call` in the BoldDuotone style.
   static const SolarDuotoneIconData outgoingCall = SolarDuotoneIconData(
     primary: IconData(0xe5e4, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -5382,6 +6770,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe5ed, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `paint-bucket` in the BoldDuotone style.
+  static const SolarDuotoneIconData paintBucket = SolarDuotoneIconData(
+    primary: IconData(0xebd4, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebd5, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `paint-roller` in the BoldDuotone style.
   static const SolarDuotoneIconData paintRoller = SolarDuotoneIconData(
     primary: IconData(0xe5ee, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -5401,6 +6796,9 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe5f2, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe5f3, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec86, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `palette-round` in the BoldDuotone style.
@@ -5408,6 +6806,9 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe5f4, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe5f5, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec88, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `pallete-2` in the BoldDuotone style.
@@ -5415,6 +6816,137 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe5f6, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe5f7, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `panel-bottom` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelBottom = SolarDuotoneIconData(
+    primary: IconData(0xebd6, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebd7, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `panel-bottom-close` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelBottomClose = SolarDuotoneIconData(
+    primary: IconData(0xebd8, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebd9, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `panel-bottom-open` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelBottomOpen = SolarDuotoneIconData(
+    primary: IconData(0xebda, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebdb, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `panel-left` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelLeft = SolarDuotoneIconData(
+    primary: IconData(0xebdc, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebdd, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `panel-left-close` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelLeftClose = SolarDuotoneIconData(
+    primary: IconData(0xebde, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebdf, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `panel-left-open` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelLeftOpen = SolarDuotoneIconData(
+    primary: IconData(0xebe0, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebe1, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `panel-right` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelRight = SolarDuotoneIconData(
+    primary: IconData(0xebe2, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebe3, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `panel-right-close` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelRightClose = SolarDuotoneIconData(
+    primary: IconData(0xebe4, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebe5, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `panel-right-open` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelRightOpen = SolarDuotoneIconData(
+    primary: IconData(0xebe6, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebe7, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `panel-text-right` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelTextRight = SolarDuotoneIconData(
+    primary: IconData(0xebe8, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebe9, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `panel-top` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelTop = SolarDuotoneIconData(
+    primary: IconData(0xebea, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebeb, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `panel-top-close` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelTopClose = SolarDuotoneIconData(
+    primary: IconData(0xebec, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebed, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `panel-top-open` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelTopOpen = SolarDuotoneIconData(
+    primary: IconData(0xebee, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebef, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `panels-bottom-left` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelsBottomLeft = SolarDuotoneIconData(
+    primary: IconData(0xebf0, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebf1, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec8a, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
+  );
+
+  /// Solar `panels-bottom-right` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelsBottomRight = SolarDuotoneIconData(
+    primary: IconData(0xebf2, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebf3, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec8c, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
+  );
+
+  /// Solar `panels-top-left` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelsTopLeft = SolarDuotoneIconData(
+    primary: IconData(0xebf4, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebf5, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec8e, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
+  );
+
+  /// Solar `panels-top-right` in the BoldDuotone style.
+  static const SolarDuotoneIconData panelsTopRight = SolarDuotoneIconData(
+    primary: IconData(0xebf6, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebf7, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec90, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `panorama` in the BoldDuotone style.
@@ -5464,6 +6996,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe604, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe605, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `parentheses` in the BoldDuotone style.
+  static const SolarDuotoneIconData parentheses = SolarDuotoneIconData(
+    primary: IconData(0xebf8, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebf9, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `passport` in the BoldDuotone style.
@@ -5556,6 +7095,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe61e, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe61f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `percent` in the BoldDuotone style.
+  static const SolarDuotoneIconData percent = SolarDuotoneIconData(
+    primary: IconData(0xebfa, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebfb, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `perfume` in the BoldDuotone style.
@@ -6005,6 +7551,27 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe69d, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `quote` in the BoldDuotone style.
+  static const SolarDuotoneIconData quote = SolarDuotoneIconData(
+    primary: IconData(0xebfc, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebfd, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `quote-circle` in the BoldDuotone style.
+  static const SolarDuotoneIconData quoteCircle = SolarDuotoneIconData(
+    primary: IconData(0xebfe, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xebff, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `quote-square` in the BoldDuotone style.
+  static const SolarDuotoneIconData quoteSquare = SolarDuotoneIconData(
+    primary: IconData(0xec00, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec01, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `radar-2` in the BoldDuotone style.
   static const SolarDuotoneIconData radar2 = SolarDuotoneIconData(
     primary: IconData(0xe69e, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -6108,6 +7675,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe6ba, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe6bb, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `rectangle` in the BoldDuotone style.
+  static const SolarDuotoneIconData rectangle = SolarDuotoneIconData(
+    primary: IconData(0xec02, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec03, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `reel-2` in the BoldDuotone style.
@@ -6346,6 +7920,34 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe6fd, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `rotate-anticlockwise-2` in the BoldDuotone style.
+  static const SolarDuotoneIconData rotateAnticlockwise2 = SolarDuotoneIconData(
+    primary: IconData(0xec04, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec05, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `rotate-anticlockwise` in the BoldDuotone style.
+  static const SolarDuotoneIconData rotateAnticlockwise = SolarDuotoneIconData(
+    primary: IconData(0xec06, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec07, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `rotate-clockwise-2` in the BoldDuotone style.
+  static const SolarDuotoneIconData rotateClockwise2 = SolarDuotoneIconData(
+    primary: IconData(0xec08, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec09, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `rotate-clockwise` in the BoldDuotone style.
+  static const SolarDuotoneIconData rotateClockwise = SolarDuotoneIconData(
+    primary: IconData(0xec0a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec0b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `round-alt-arrow-down` in the BoldDuotone style.
   static const SolarDuotoneIconData roundAltArrowDown = SolarDuotoneIconData(
     primary: IconData(0xe6fe, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -6551,6 +8153,30 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe735, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `rounded-magnifier-check` in the BoldDuotone style.
+  static const SolarDuotoneIconData roundedMagnifierCheck =
+      SolarDuotoneIconData(
+    primary: IconData(0xec0c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec0d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `rounded-magnifier-close` in the BoldDuotone style.
+  static const SolarDuotoneIconData roundedMagnifierClose =
+      SolarDuotoneIconData(
+    primary: IconData(0xec0e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec0f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `rounded-magnifier-slash` in the BoldDuotone style.
+  static const SolarDuotoneIconData roundedMagnifierSlash =
+      SolarDuotoneIconData(
+    primary: IconData(0xec10, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec11, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `rounded-magnifier-zoom-in` in the BoldDuotone style.
   static const SolarDuotoneIconData roundedMagnifierZoomIn =
       SolarDuotoneIconData(
@@ -6593,6 +8219,34 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe740, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe741, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `rows-2` in the BoldDuotone style.
+  static const SolarDuotoneIconData rows2 = SolarDuotoneIconData(
+    primary: IconData(0xec12, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec13, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `rows-3` in the BoldDuotone style.
+  static const SolarDuotoneIconData rows3 = SolarDuotoneIconData(
+    primary: IconData(0xec14, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec15, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `rows-4` in the BoldDuotone style.
+  static const SolarDuotoneIconData rows4 = SolarDuotoneIconData(
+    primary: IconData(0xec16, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec17, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `rss` in the BoldDuotone style.
+  static const SolarDuotoneIconData rss = SolarDuotoneIconData(
+    primary: IconData(0xec18, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec19, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `ruble` in the BoldDuotone style.
@@ -6791,6 +8445,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe779, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `selection` in the BoldDuotone style.
+  static const SolarDuotoneIconData selection = SolarDuotoneIconData(
+    primary: IconData(0xec1a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec1b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `send-square` in the BoldDuotone style.
   static const SolarDuotoneIconData sendSquare = SolarDuotoneIconData(
     primary: IconData(0xe77a, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -6803,6 +8464,20 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe77c, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe77d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `separator-horizontal` in the BoldDuotone style.
+  static const SolarDuotoneIconData separatorHorizontal = SolarDuotoneIconData(
+    primary: IconData(0xec1c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec1d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `separator-vertical` in the BoldDuotone style.
+  static const SolarDuotoneIconData separatorVertical = SolarDuotoneIconData(
+    primary: IconData(0xec1e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec1f, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `server-2` in the BoldDuotone style.
@@ -6868,6 +8543,20 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe78f, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `shadow` in the BoldDuotone style.
+  static const SolarDuotoneIconData shadow = SolarDuotoneIconData(
+    primary: IconData(0xec20, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec21, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `shape-rotate` in the BoldDuotone style.
+  static const SolarDuotoneIconData shapeRotate = SolarDuotoneIconData(
+    primary: IconData(0xec22, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec23, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `share` in the BoldDuotone style.
   static const SolarDuotoneIconData share = SolarDuotoneIconData(
     primary: IconData(0xe790, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -6880,6 +8569,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe792, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe793, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `sheet` in the BoldDuotone style.
+  static const SolarDuotoneIconData sheet = SolarDuotoneIconData(
+    primary: IconData(0xec24, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec25, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `shield` in the BoldDuotone style.
@@ -6939,6 +8635,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe7a3, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `shield-off` in the BoldDuotone style.
+  static const SolarDuotoneIconData shieldOff = SolarDuotoneIconData(
+    primary: IconData(0xec26, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec27, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `shield-plus` in the BoldDuotone style.
   static const SolarDuotoneIconData shieldPlus = SolarDuotoneIconData(
     primary: IconData(0xe7a4, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -6993,6 +8696,9 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe7b2, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe7b3, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec92, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `shop-minimalistic` in the BoldDuotone style.
@@ -7035,6 +8741,41 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe7be, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe7bf, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `signal` in the BoldDuotone style.
+  static const SolarDuotoneIconData signal = SolarDuotoneIconData(
+    primary: IconData(0xec28, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec29, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `signal-high` in the BoldDuotone style.
+  static const SolarDuotoneIconData signalHigh = SolarDuotoneIconData(
+    primary: IconData(0xec2a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec2b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `signal-low` in the BoldDuotone style.
+  static const SolarDuotoneIconData signalLow = SolarDuotoneIconData(
+    primary: IconData(0xec2c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec2d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `signal-medium` in the BoldDuotone style.
+  static const SolarDuotoneIconData signalMedium = SolarDuotoneIconData(
+    primary: IconData(0xec2e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec2f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `signal-zero` in the BoldDuotone style.
+  static const SolarDuotoneIconData signalZero = SolarDuotoneIconData(
+    primary: IconData(0xec30, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec31, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `signpost-2` in the BoldDuotone style.
@@ -7126,6 +8867,10 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe7d8, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe7d9, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec94, fontFamily: fontFamily, fontPackage: fontPackage),
+      IconData(0xec96, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `slash-circle` in the BoldDuotone style.
@@ -7427,6 +9172,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe82d, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `sparkles` in the BoldDuotone style.
+  static const SolarDuotoneIconData sparkles = SolarDuotoneIconData(
+    primary: IconData(0xec32, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec33, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `speaker` in the BoldDuotone style.
   static const SolarDuotoneIconData speaker = SolarDuotoneIconData(
     primary: IconData(0xe82e, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -7602,6 +9354,27 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe85f, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `square-dashed` in the BoldDuotone style.
+  static const SolarDuotoneIconData squareDashed = SolarDuotoneIconData(
+    primary: IconData(0xec34, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec35, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `square-dot` in the BoldDuotone style.
+  static const SolarDuotoneIconData squareDot = SolarDuotoneIconData(
+    primary: IconData(0xec36, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec37, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `square-dot-dashed` in the BoldDuotone style.
+  static const SolarDuotoneIconData squareDotDashed = SolarDuotoneIconData(
+    primary: IconData(0xec38, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec39, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `square-double-alt-arrow-down` in the BoldDuotone style.
   static const SolarDuotoneIconData squareDoubleAltArrowDown =
       SolarDuotoneIconData(
@@ -7761,6 +9534,20 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe88a, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe88b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `star-half` in the BoldDuotone style.
+  static const SolarDuotoneIconData starHalf = SolarDuotoneIconData(
+    primary: IconData(0xec3a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec3b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `star-off` in the BoldDuotone style.
+  static const SolarDuotoneIconData starOff = SolarDuotoneIconData(
+    primary: IconData(0xec3c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec3d, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `star-rainbow` in the BoldDuotone style.
@@ -7966,6 +9753,20 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe8c5, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `subtract` in the BoldDuotone style.
+  static const SolarDuotoneIconData subtract = SolarDuotoneIconData(
+    primary: IconData(0xec3e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec3f, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `subtract-minimalistic` in the BoldDuotone style.
+  static const SolarDuotoneIconData subtractMinimalistic = SolarDuotoneIconData(
+    primary: IconData(0xec40, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec41, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `suitcase` in the BoldDuotone style.
   static const SolarDuotoneIconData suitcase = SolarDuotoneIconData(
     primary: IconData(0xe8c6, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -8062,6 +9863,55 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe8e0, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe8e1, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `table` in the BoldDuotone style.
+  static const SolarDuotoneIconData table = SolarDuotoneIconData(
+    primary: IconData(0xec42, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec43, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `table-cells-merge` in the BoldDuotone style.
+  static const SolarDuotoneIconData tableCellsMerge = SolarDuotoneIconData(
+    primary: IconData(0xec44, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec45, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `table-cells-split` in the BoldDuotone style.
+  static const SolarDuotoneIconData tableCellsSplit = SolarDuotoneIconData(
+    primary: IconData(0xec46, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec47, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `table-columns-split` in the BoldDuotone style.
+  static const SolarDuotoneIconData tableColumnsSplit = SolarDuotoneIconData(
+    primary: IconData(0xec48, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec49, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `table-minimalistic` in the BoldDuotone style.
+  static const SolarDuotoneIconData tableMinimalistic = SolarDuotoneIconData(
+    primary: IconData(0xec4a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec4b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `table-properties` in the BoldDuotone style.
+  static const SolarDuotoneIconData tableProperties = SolarDuotoneIconData(
+    primary: IconData(0xec4c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec4d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `table-rows-split` in the BoldDuotone style.
+  static const SolarDuotoneIconData tableRowsSplit = SolarDuotoneIconData(
+    primary: IconData(0xec4e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec4f, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `tablet` in the BoldDuotone style.
@@ -8225,6 +10075,13 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe90f, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `text-heading` in the BoldDuotone style.
+  static const SolarDuotoneIconData textHeading = SolarDuotoneIconData(
+    primary: IconData(0xec50, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec51, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `text-italic` in the BoldDuotone style.
   static const SolarDuotoneIconData textItalic = SolarDuotoneIconData(
     primary: IconData(0xe910, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -8300,6 +10157,9 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe924, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe925, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec98, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `ticket` in the BoldDuotone style.
@@ -8328,6 +10188,20 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe92c, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe92d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `toggle-left` in the BoldDuotone style.
+  static const SolarDuotoneIconData toggleLeft = SolarDuotoneIconData(
+    primary: IconData(0xec52, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec53, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `toggle-right` in the BoldDuotone style.
+  static const SolarDuotoneIconData toggleRight = SolarDuotoneIconData(
+    primary: IconData(0xec54, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec55, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `toolbox` in the BoldDuotone style.
@@ -8384,6 +10258,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe93c, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe93d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `translate` in the BoldDuotone style.
+  static const SolarDuotoneIconData translate = SolarDuotoneIconData(
+    primary: IconData(0xec56, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec57, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `translation-2` in the BoldDuotone style.
@@ -8624,6 +10505,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe980, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe981, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `union` in the BoldDuotone style.
+  static const SolarDuotoneIconData union = SolarDuotoneIconData(
+    primary: IconData(0xec58, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec59, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `unlink` in the BoldDuotone style.
@@ -8871,6 +10759,20 @@ abstract final class SolarIconsBoldDuotone {
         IconData(0xe9c7, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
+  /// Solar `variable-brackets` in the BoldDuotone style.
+  static const SolarDuotoneIconData variableBrackets = SolarDuotoneIconData(
+    primary: IconData(0xec5a, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec5b, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `variable-square` in the BoldDuotone style.
+  static const SolarDuotoneIconData variableSquare = SolarDuotoneIconData(
+    primary: IconData(0xec5c, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec5d, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
   /// Solar `verified-check` in the BoldDuotone style.
   static const SolarDuotoneIconData verifiedCheck = SolarDuotoneIconData(
     primary: IconData(0xe9c8, fontFamily: fontFamily, fontPackage: fontPackage),
@@ -8990,6 +10892,9 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe9e8, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe9e9, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec9c, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `volleyball` in the BoldDuotone style.
@@ -8997,6 +10902,9 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xe9ea, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xe9eb, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec9a, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `volume` in the BoldDuotone style.
@@ -9081,6 +10989,13 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xea02, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xea03, fontFamily: fontFamily, fontPackage: fontPackage),
+  );
+
+  /// Solar `warp` in the BoldDuotone style.
+  static const SolarDuotoneIconData warp = SolarDuotoneIconData(
+    primary: IconData(0xec5e, fontFamily: fontFamily, fontPackage: fontPackage),
+    secondary:
+        IconData(0xec5f, fontFamily: fontFamily, fontPackage: fontPackage),
   );
 
   /// Solar `washing-machine` in the BoldDuotone style.
@@ -9323,6 +11238,10 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xea46, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xea47, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xec9e, fontFamily: fontFamily, fontPackage: fontPackage),
+      IconData(0xeca0, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `wind` in the BoldDuotone style.
@@ -9337,6 +11256,9 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xea4a, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xea4b, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xeca2, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `wineglass` in the BoldDuotone style.
@@ -9358,6 +11280,9 @@ abstract final class SolarIconsBoldDuotone {
     primary: IconData(0xea50, fontFamily: fontFamily, fontPackage: fontPackage),
     secondary:
         IconData(0xea51, fontFamily: fontFamily, fontPackage: fontPackage),
+    overlaps: <IconData>[
+      IconData(0xeca4, fontFamily: fontFamily, fontPackage: fontPackage),
+    ],
   );
 
   /// Solar `wireless-charge` in the BoldDuotone style.

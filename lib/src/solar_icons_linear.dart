@@ -1,11 +1,11 @@
 // GENERATED FILE - DO NOT EDIT.
 //
 // Regenerate with: python3 tool/generate.py
-// Source: Solar Icon Set by 480 Design, via @iconify-json/solar@1.2.10 (CC BY 4.0).
+// Source: Solar Icon Set by 480 Design, via @iconify-json/solar@1.2.15 (CC BY 4.0).
 
 import 'package:flutter/widgets.dart';
 
-/// The 1283 icons of the Solar `Linear` style.
+/// The 1542 icons of the Solar `Linear` style.
 ///
 /// ```dart
 /// Icon(SolarIconsLinear.icon4k)
@@ -173,6 +173,10 @@ abstract final class SolarIconsLinear {
   static const IconData archiveCheck =
       IconData(0xe026, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `archive-close` in the Linear style.
+  static const IconData archiveClose =
+      IconData(0xe503, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `archive-down` in the Linear style.
   static const IconData archiveDown =
       IconData(0xe027, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -188,6 +192,10 @@ abstract final class SolarIconsLinear {
   /// Solar `archive` in the Linear style.
   static const IconData archive =
       IconData(0xe02a, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `archive-minimalistic-close` in the Linear style.
+  static const IconData archiveMinimalisticClose =
+      IconData(0xe504, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `archive-minimalistic` in the Linear style.
   static const IconData archiveMinimalistic =
@@ -213,17 +221,33 @@ abstract final class SolarIconsLinear {
   static const IconData armchair =
       IconData(0xe030, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `arrow-down-from-line` in the Linear style.
+  static const IconData arrowDownFromLine =
+      IconData(0xe505, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `arrow-down` in the Linear style.
   static const IconData arrowDown =
       IconData(0xe031, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `arrow-down-to-line` in the Linear style.
+  static const IconData arrowDownToLine =
+      IconData(0xe506, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `arrow-left-down` in the Linear style.
   static const IconData arrowLeftDown =
       IconData(0xe032, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `arrow-left-from-line` in the Linear style.
+  static const IconData arrowLeftFromLine =
+      IconData(0xe507, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `arrow-left` in the Linear style.
   static const IconData arrowLeft =
       IconData(0xe033, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `arrow-left-to-line` in the Linear style.
+  static const IconData arrowLeftToLine =
+      IconData(0xe508, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `arrow-left-up` in the Linear style.
   static const IconData arrowLeftUp =
@@ -233,9 +257,17 @@ abstract final class SolarIconsLinear {
   static const IconData arrowRightDown =
       IconData(0xe035, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `arrow-right-from-line` in the Linear style.
+  static const IconData arrowRightFromLine =
+      IconData(0xe509, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `arrow-right` in the Linear style.
   static const IconData arrowRight =
       IconData(0xe036, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `arrow-right-to-line` in the Linear style.
+  static const IconData arrowRightToLine =
+      IconData(0xe50a, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `arrow-right-up` in the Linear style.
   static const IconData arrowRightUp =
@@ -257,9 +289,21 @@ abstract final class SolarIconsLinear {
   static const IconData arrowToTopRight =
       IconData(0xe03b, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `arrow-up-from-line` in the Linear style.
+  static const IconData arrowUpFromLine =
+      IconData(0xe50b, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `arrow-up` in the Linear style.
   static const IconData arrowUp =
       IconData(0xe03c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `arrow-up-to-line` in the Linear style.
+  static const IconData arrowUpToLine =
+      IconData(0xe50c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `asterisk` in the Linear style.
+  static const IconData asterisk =
+      IconData(0xe50d, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `asteroid` in the Linear style.
   static const IconData asteroid =
@@ -477,6 +521,14 @@ abstract final class SolarIconsLinear {
   static const IconData blackHole =
       IconData(0xe072, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `blend` in the Linear style.
+  static const IconData blend =
+      IconData(0xe50e, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `blocks` in the Linear style.
+  static const IconData blocks =
+      IconData(0xe50f, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `bluetooth-circle` in the Linear style.
   static const IconData bluetoothCircle =
       IconData(0xe073, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -565,6 +617,10 @@ abstract final class SolarIconsLinear {
   static const IconData bookMinimalistic =
       IconData(0xe088, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `bookmark-check` in the Linear style.
+  static const IconData bookmarkCheck =
+      IconData(0xe510, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `bookmark-circle` in the Linear style.
   static const IconData bookmarkCircle =
       IconData(0xe089, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -573,9 +629,21 @@ abstract final class SolarIconsLinear {
   static const IconData bookmark =
       IconData(0xe08a, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `bookmark-minus` in the Linear style.
+  static const IconData bookmarkMinus =
+      IconData(0xe511, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `bookmark-off` in the Linear style.
+  static const IconData bookmarkOff =
+      IconData(0xe512, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `bookmark-opened` in the Linear style.
   static const IconData bookmarkOpened =
       IconData(0xe08b, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `bookmark-plus` in the Linear style.
+  static const IconData bookmarkPlus =
+      IconData(0xe513, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `bookmark-square` in the Linear style.
   static const IconData bookmarkSquare =
@@ -584,6 +652,10 @@ abstract final class SolarIconsLinear {
   /// Solar `bookmark-square-minimalistic` in the Linear style.
   static const IconData bookmarkSquareMinimalistic =
       IconData(0xe08d, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `bookmark-x` in the Linear style.
+  static const IconData bookmarkX =
+      IconData(0xe514, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `boombox` in the Linear style.
   static const IconData boombox =
@@ -609,6 +681,14 @@ abstract final class SolarIconsLinear {
   static const IconData boxMinimalistic =
       IconData(0xe093, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `braces` in the Linear style.
+  static const IconData braces =
+      IconData(0xe515, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `brackets` in the Linear style.
+  static const IconData brackets =
+      IconData(0xe516, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `brain` in the Linear style.
   static const IconData brain =
       IconData(0xe094, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -624,6 +704,10 @@ abstract final class SolarIconsLinear {
   /// Solar `broom` in the Linear style.
   static const IconData broom =
       IconData(0xe097, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `brush-cross-pen` in the Linear style.
+  static const IconData brushCrossPen =
+      IconData(0xe517, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `bug` in the Linear style.
   static const IconData bug =
@@ -677,6 +761,10 @@ abstract final class SolarIconsLinear {
   static const IconData calendarMinimalistic =
       IconData(0xe0a4, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `calendar-range` in the Linear style.
+  static const IconData calendarRange =
+      IconData(0xe518, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `calendar-search` in the Linear style.
   static const IconData calendarSearch =
       IconData(0xe0a5, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -725,6 +813,10 @@ abstract final class SolarIconsLinear {
   static const IconData cameraMinimalistic =
       IconData(0xe0b0, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `camera-off` in the Linear style.
+  static const IconData cameraOff =
+      IconData(0xe519, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `camera-rotate` in the Linear style.
   static const IconData cameraRotate =
       IconData(0xe0b1, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -736,6 +828,10 @@ abstract final class SolarIconsLinear {
   /// Solar `car-battery` in the Linear style.
   static const IconData carBattery =
       IconData(0xe0b3, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `car` in the Linear style.
+  static const IconData car =
+      IconData(0xe51a, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `card-2` in the Linear style.
   static const IconData card2 =
@@ -873,6 +969,10 @@ abstract final class SolarIconsLinear {
   static const IconData chart =
       IconData(0xe0d5, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `chart-square-2` in the Linear style.
+  static const IconData chartSquare2 =
+      IconData(0xe51b, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `chart-square` in the Linear style.
   static const IconData chartSquare =
       IconData(0xe0d6, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -885,6 +985,10 @@ abstract final class SolarIconsLinear {
   static const IconData chatLine =
       IconData(0xe0d8, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `chat-round-add` in the Linear style.
+  static const IconData chatRoundAdd =
+      IconData(0xe51c, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `chat-round-call` in the Linear style.
   static const IconData chatRoundCall =
       IconData(0xe0d9, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -892,6 +996,14 @@ abstract final class SolarIconsLinear {
   /// Solar `chat-round-check` in the Linear style.
   static const IconData chatRoundCheck =
       IconData(0xe0da, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-round-close` in the Linear style.
+  static const IconData chatRoundClose =
+      IconData(0xe51d, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-round-code` in the Linear style.
+  static const IconData chatRoundCode =
+      IconData(0xe51e, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `chat-round-dots` in the Linear style.
   static const IconData chatRoundDots =
@@ -913,6 +1025,22 @@ abstract final class SolarIconsLinear {
   static const IconData chatRoundMoney =
       IconData(0xe0df, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `chat-round-off` in the Linear style.
+  static const IconData chatRoundOff =
+      IconData(0xe51f, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-round-question-mark` in the Linear style.
+  static const IconData chatRoundQuestionMark =
+      IconData(0xe520, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-round-quote` in the Linear style.
+  static const IconData chatRoundQuote =
+      IconData(0xe521, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-round-replay` in the Linear style.
+  static const IconData chatRoundReplay =
+      IconData(0xe522, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `chat-round-unread` in the Linear style.
   static const IconData chatRoundUnread =
       IconData(0xe0e0, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -921,9 +1049,17 @@ abstract final class SolarIconsLinear {
   static const IconData chatRoundVideo =
       IconData(0xe0e1, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `chat-round-warning` in the Linear style.
+  static const IconData chatRoundWarning =
+      IconData(0xe523, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `chat-square-2` in the Linear style.
   static const IconData chatSquare2 =
       IconData(0xe0e2, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-square-add` in the Linear style.
+  static const IconData chatSquareAdd =
+      IconData(0xe524, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `chat-square-arrow` in the Linear style.
   static const IconData chatSquareArrow =
@@ -937,17 +1073,53 @@ abstract final class SolarIconsLinear {
   static const IconData chatSquareCheck =
       IconData(0xe0e5, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `chat-square-close` in the Linear style.
+  static const IconData chatSquareClose =
+      IconData(0xe525, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `chat-square-code` in the Linear style.
   static const IconData chatSquareCode =
       IconData(0xe0e6, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-square-dots` in the Linear style.
+  static const IconData chatSquareDots =
+      IconData(0xe526, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `chat-square-like` in the Linear style.
   static const IconData chatSquareLike =
       IconData(0xe0e7, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `chat-square-line` in the Linear style.
+  static const IconData chatSquareLine =
+      IconData(0xe527, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `chat-square` in the Linear style.
   static const IconData chatSquare =
       IconData(0xe0e8, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-square-off` in the Linear style.
+  static const IconData chatSquareOff =
+      IconData(0xe528, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-square-question-mark` in the Linear style.
+  static const IconData chatSquareQuestionMark =
+      IconData(0xe529, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-square-quote` in the Linear style.
+  static const IconData chatSquareQuote =
+      IconData(0xe52a, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-square-replay` in the Linear style.
+  static const IconData chatSquareReplay =
+      IconData(0xe52b, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-square-unread` in the Linear style.
+  static const IconData chatSquareUnread =
+      IconData(0xe52c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chat-square-warning` in the Linear style.
+  static const IconData chatSquareWarning =
+      IconData(0xe52d, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `chat-unread` in the Linear style.
   static const IconData chatUnread =
@@ -957,6 +1129,10 @@ abstract final class SolarIconsLinear {
   static const IconData checkCircle =
       IconData(0xe0ea, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `check` in the Linear style.
+  static const IconData check =
+      IconData(0xe52e, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `check-read` in the Linear style.
   static const IconData checkRead =
       IconData(0xe0eb, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -964,6 +1140,10 @@ abstract final class SolarIconsLinear {
   /// Solar `check-square` in the Linear style.
   static const IconData checkSquare =
       IconData(0xe0ec, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `checkerboard` in the Linear style.
+  static const IconData checkerboard =
+      IconData(0xe52f, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `checklist` in the Linear style.
   static const IconData checklist =
@@ -985,6 +1165,34 @@ abstract final class SolarIconsLinear {
   static const IconData chefHatMinimalistic =
       IconData(0xe0f1, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `chevron-first` in the Linear style.
+  static const IconData chevronFirst =
+      IconData(0xe530, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chevron-last` in the Linear style.
+  static const IconData chevronLast =
+      IconData(0xe531, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chevrons-down-up` in the Linear style.
+  static const IconData chevronsDownUp =
+      IconData(0xe532, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chevrons-left-right-ellipsis` in the Linear style.
+  static const IconData chevronsLeftRightEllipsis =
+      IconData(0xe533, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chevrons-left-right` in the Linear style.
+  static const IconData chevronsLeftRight =
+      IconData(0xe534, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chevrons-right-left` in the Linear style.
+  static const IconData chevronsRightLeft =
+      IconData(0xe535, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `chevrons-up-down` in the Linear style.
+  static const IconData chevronsUpDown =
+      IconData(0xe536, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `circle-bottom-down` in the Linear style.
   static const IconData circleBottomDown =
       IconData(0xe0f2, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -992,6 +1200,22 @@ abstract final class SolarIconsLinear {
   /// Solar `circle-bottom-up` in the Linear style.
   static const IconData circleBottomUp =
       IconData(0xe0f3, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `circle-dashed` in the Linear style.
+  static const IconData circleDashed =
+      IconData(0xe537, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `circle-dot-dashed` in the Linear style.
+  static const IconData circleDotDashed =
+      IconData(0xe538, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `circle-dot` in the Linear style.
+  static const IconData circleDot =
+      IconData(0xe539, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `circle` in the Linear style.
+  static const IconData circle =
+      IconData(0xe53a, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `circle-top-down` in the Linear style.
   static const IconData circleTopDown =
@@ -1037,6 +1261,14 @@ abstract final class SolarIconsLinear {
   static const IconData clipboardCheck =
       IconData(0xe0fe, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `clipboard-clock` in the Linear style.
+  static const IconData clipboardClock =
+      IconData(0xe53b, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `clipboard-copy` in the Linear style.
+  static const IconData clipboardCopy =
+      IconData(0xe53c, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `clipboard-heart` in the Linear style.
   static const IconData clipboardHeart =
       IconData(0xe0ff, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -1049,6 +1281,14 @@ abstract final class SolarIconsLinear {
   static const IconData clipboardList =
       IconData(0xe101, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `clipboard-minus` in the Linear style.
+  static const IconData clipboardMinus =
+      IconData(0xe53d, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `clipboard-paste` in the Linear style.
+  static const IconData clipboardPaste =
+      IconData(0xe53e, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `clipboard-remove` in the Linear style.
   static const IconData clipboardRemove =
       IconData(0xe102, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -1056,6 +1296,10 @@ abstract final class SolarIconsLinear {
   /// Solar `clipboard-text` in the Linear style.
   static const IconData clipboardText =
       IconData(0xe103, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `clipboard-type` in the Linear style.
+  static const IconData clipboardType =
+      IconData(0xe53f, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `clock-circle` in the Linear style.
   static const IconData clockCircle =
@@ -1116,6 +1360,10 @@ abstract final class SolarIconsLinear {
   /// Solar `cloud-minus` in the Linear style.
   static const IconData cloudMinus =
       IconData(0xe112, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `cloud-off` in the Linear style.
+  static const IconData cloudOff =
+      IconData(0xe540, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `cloud-plus` in the Linear style.
   static const IconData cloudPlus =
@@ -1197,6 +1445,22 @@ abstract final class SolarIconsLinear {
   static const IconData colourTuning =
       IconData(0xe126, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `columns-2` in the Linear style.
+  static const IconData columns2 =
+      IconData(0xe541, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `columns-3-cog` in the Linear style.
+  static const IconData columns3Cog =
+      IconData(0xe542, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `columns-3` in the Linear style.
+  static const IconData columns3 =
+      IconData(0xe543, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `columns-4` in the Linear style.
+  static const IconData columns4 =
+      IconData(0xe544, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `command` in the Linear style.
   static const IconData command =
       IconData(0xe127, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -1237,9 +1501,37 @@ abstract final class SolarIconsLinear {
   static const IconData confoundedSquare =
       IconData(0xe130, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `container` in the Linear style.
+  static const IconData container =
+      IconData(0xe545, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `contrast` in the Linear style.
+  static const IconData contrast =
+      IconData(0xe546, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `cookie` in the Linear style.
+  static const IconData cookie =
+      IconData(0xe547, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `copy-add` in the Linear style.
+  static const IconData copyAdd =
+      IconData(0xe548, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `copy-check` in the Linear style.
+  static const IconData copyCheck =
+      IconData(0xe549, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `copy-close` in the Linear style.
+  static const IconData copyClose =
+      IconData(0xe54a, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `copy` in the Linear style.
   static const IconData copy =
       IconData(0xe131, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `copy-minus` in the Linear style.
+  static const IconData copyMinus =
+      IconData(0xe54b, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `copyright` in the Linear style.
   static const IconData copyright =
@@ -1393,6 +1685,14 @@ abstract final class SolarIconsLinear {
   static const IconData display =
       IconData(0xe157, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `distort` in the Linear style.
+  static const IconData distort =
+      IconData(0xe54c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `divide` in the Linear style.
+  static const IconData divide =
+      IconData(0xe54d, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `dna` in the Linear style.
   static const IconData dna =
       IconData(0xe158, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -1525,6 +1825,10 @@ abstract final class SolarIconsLinear {
   static const IconData electricRefueling =
       IconData(0xe178, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `ellipse` in the Linear style.
+  static const IconData ellipse =
+      IconData(0xe54e, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `emoji-funny-circle` in the Linear style.
   static const IconData emojiFunnyCircle =
       IconData(0xe179, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -1540,6 +1844,10 @@ abstract final class SolarIconsLinear {
   /// Solar `end-call-rounded` in the Linear style.
   static const IconData endCallRounded =
       IconData(0xe17c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `equal` in the Linear style.
+  static const IconData equal =
+      IconData(0xe54f, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `eraser-circle` in the Linear style.
   static const IconData eraserCircle =
@@ -1560,6 +1868,10 @@ abstract final class SolarIconsLinear {
   /// Solar `exclamation-mark` in the Linear style.
   static const IconData exclamationMark =
       IconData(0xe181, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `exclude` in the Linear style.
+  static const IconData exclude =
+      IconData(0xe550, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `exit` in the Linear style.
   static const IconData exit =
@@ -1588,6 +1900,10 @@ abstract final class SolarIconsLinear {
   /// Solar `eye` in the Linear style.
   static const IconData eye =
       IconData(0xe188, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `eye-off` in the Linear style.
+  static const IconData eyeOff =
+      IconData(0xe551, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `eye-scan` in the Linear style.
   static const IconData eyeScan =
@@ -1625,9 +1941,45 @@ abstract final class SolarIconsLinear {
   static const IconData figma =
       IconData(0xe191, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `file-add` in the Linear style.
+  static const IconData fileAdd =
+      IconData(0xe552, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-audio` in the Linear style.
+  static const IconData fileAudio =
+      IconData(0xe553, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-badge` in the Linear style.
+  static const IconData fileBadge =
+      IconData(0xe554, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-braces` in the Linear style.
+  static const IconData fileBraces =
+      IconData(0xe555, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-chart-2` in the Linear style.
+  static const IconData fileChart2 =
+      IconData(0xe556, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-chart` in the Linear style.
+  static const IconData fileChart =
+      IconData(0xe557, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `file-check` in the Linear style.
   static const IconData fileCheck =
       IconData(0xe192, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-cloud` in the Linear style.
+  static const IconData fileCloud =
+      IconData(0xe558, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-code` in the Linear style.
+  static const IconData fileCode =
+      IconData(0xe559, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-cog` in the Linear style.
+  static const IconData fileCog =
+      IconData(0xe55a, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `file-corrupted` in the Linear style.
   static const IconData fileCorrupted =
@@ -1645,6 +1997,14 @@ abstract final class SolarIconsLinear {
   static const IconData fileFavourite =
       IconData(0xe196, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `file-figma` in the Linear style.
+  static const IconData fileFigma =
+      IconData(0xe55b, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-image` in the Linear style.
+  static const IconData fileImage =
+      IconData(0xe55c, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `file-left` in the Linear style.
   static const IconData fileLeft =
       IconData(0xe197, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -1652,6 +2012,26 @@ abstract final class SolarIconsLinear {
   /// Solar `file` in the Linear style.
   static const IconData file =
       IconData(0xe198, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-lock` in the Linear style.
+  static const IconData fileLock =
+      IconData(0xe55d, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-minus` in the Linear style.
+  static const IconData fileMinus =
+      IconData(0xe55e, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-pen` in the Linear style.
+  static const IconData filePen =
+      IconData(0xe55f, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-play` in the Linear style.
+  static const IconData filePlay =
+      IconData(0xe560, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-question-mark` in the Linear style.
+  static const IconData fileQuestionMark =
+      IconData(0xe561, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `file-remove` in the Linear style.
   static const IconData fileRemove =
@@ -1661,17 +2041,65 @@ abstract final class SolarIconsLinear {
   static const IconData fileRight =
       IconData(0xe19a, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `file-search` in the Linear style.
+  static const IconData fileSearch =
+      IconData(0xe562, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `file-send` in the Linear style.
   static const IconData fileSend =
       IconData(0xe19b, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-signal` in the Linear style.
+  static const IconData fileSignal =
+      IconData(0xe563, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-sliders` in the Linear style.
+  static const IconData fileSliders =
+      IconData(0xe564, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `file-smile` in the Linear style.
   static const IconData fileSmile =
       IconData(0xe19c, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `file-spreadsheet` in the Linear style.
+  static const IconData fileSpreadsheet =
+      IconData(0xe565, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-stack` in the Linear style.
+  static const IconData fileStack =
+      IconData(0xe566, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-terminal` in the Linear style.
+  static const IconData fileTerminal =
+      IconData(0xe567, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `file-text` in the Linear style.
   static const IconData fileText =
       IconData(0xe19d, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-type` in the Linear style.
+  static const IconData fileType =
+      IconData(0xe568, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-user` in the Linear style.
+  static const IconData fileUser =
+      IconData(0xe569, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-video-camera` in the Linear style.
+  static const IconData fileVideoCamera =
+      IconData(0xe56a, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-warning` in the Linear style.
+  static const IconData fileWarning =
+      IconData(0xe56b, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `file-zip` in the Linear style.
+  static const IconData fileZip =
+      IconData(0xe56c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `filter-close` in the Linear style.
+  static const IconData filterClose =
+      IconData(0xe56d, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `filter` in the Linear style.
   static const IconData filter =
@@ -1717,6 +2145,10 @@ abstract final class SolarIconsLinear {
   static const IconData flashlightOn =
       IconData(0xe1a8, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `flat-brush` in the Linear style.
+  static const IconData flatBrush =
+      IconData(0xe56e, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `flip-horizontal` in the Linear style.
   static const IconData flipHorizontal =
       IconData(0xe1a9, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -1745,9 +2177,33 @@ abstract final class SolarIconsLinear {
   static const IconData folderCheck =
       IconData(0xe1af, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `folder-clock` in the Linear style.
+  static const IconData folderClock =
+      IconData(0xe56f, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `folder-cloud` in the Linear style.
   static const IconData folderCloud =
       IconData(0xe1b0, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-code` in the Linear style.
+  static const IconData folderCode =
+      IconData(0xe570, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-cog` in the Linear style.
+  static const IconData folderCog =
+      IconData(0xe571, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-dot` in the Linear style.
+  static const IconData folderDot =
+      IconData(0xe572, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-dot-open` in the Linear style.
+  static const IconData folderDotOpen =
+      IconData(0xe573, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-down` in the Linear style.
+  static const IconData folderDown =
+      IconData(0xe574, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `folder-error` in the Linear style.
   static const IconData folderError =
@@ -1761,25 +2217,73 @@ abstract final class SolarIconsLinear {
   static const IconData folderFavoriteStar =
       IconData(0xe1b3, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `folder-git` in the Linear style.
+  static const IconData folderGit =
+      IconData(0xe575, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-kanban` in the Linear style.
+  static const IconData folderKanban =
+      IconData(0xe576, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `folder` in the Linear style.
   static const IconData folder =
       IconData(0xe1b4, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-lock` in the Linear style.
+  static const IconData folderLock =
+      IconData(0xe577, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `folder-open` in the Linear style.
   static const IconData folderOpen =
       IconData(0xe1b5, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `folder-output` in the Linear style.
+  static const IconData folderOutput =
+      IconData(0xe578, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `folder-path-connect` in the Linear style.
   static const IconData folderPathConnect =
       IconData(0xe1b6, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-pen` in the Linear style.
+  static const IconData folderPen =
+      IconData(0xe579, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-search` in the Linear style.
+  static const IconData folderSearch =
+      IconData(0xe57a, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `folder-security` in the Linear style.
   static const IconData folderSecurity =
       IconData(0xe1b7, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `folder-symlink` in the Linear style.
+  static const IconData folderSymlink =
+      IconData(0xe57b, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-sync` in the Linear style.
+  static const IconData folderSync =
+      IconData(0xe57c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-tree` in the Linear style.
+  static const IconData folderTree =
+      IconData(0xe57d, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-up` in the Linear style.
+  static const IconData folderUp =
+      IconData(0xe57e, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `folder-with-files` in the Linear style.
   static const IconData folderWithFiles =
       IconData(0xe1b8, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folder-zip` in the Linear style.
+  static const IconData folderZip =
+      IconData(0xe57f, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `folders` in the Linear style.
+  static const IconData folders =
+      IconData(0xe580, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `football` in the Linear style.
   static const IconData football =
@@ -1808,6 +2312,10 @@ abstract final class SolarIconsLinear {
   /// Solar `four-k` in the Linear style.
   static const IconData fourK =
       IconData(0xe1bf, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `frame` in the Linear style.
+  static const IconData frame =
+      IconData(0xe581, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `fridge` in the Linear style.
   static const IconData fridge =
@@ -1925,6 +2433,30 @@ abstract final class SolarIconsLinear {
   static const IconData gift =
       IconData(0xe1dc, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `git-branch` in the Linear style.
+  static const IconData gitBranch =
+      IconData(0xe582, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `git-commit` in the Linear style.
+  static const IconData gitCommit =
+      IconData(0xe583, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `git-diff` in the Linear style.
+  static const IconData gitDiff =
+      IconData(0xe584, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `git-fork` in the Linear style.
+  static const IconData gitFork =
+      IconData(0xe585, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `git-graph` in the Linear style.
+  static const IconData gitGraph =
+      IconData(0xe586, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `git-pull-request` in the Linear style.
+  static const IconData gitPullRequest =
+      IconData(0xe587, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `glasses` in the Linear style.
   static const IconData glasses =
       IconData(0xe1dd, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -1944,6 +2476,10 @@ abstract final class SolarIconsLinear {
   /// Solar `gps` in the Linear style.
   static const IconData gps =
       IconData(0xe1e1, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `gradient` in the Linear style.
+  static const IconData gradient =
+      IconData(0xe588, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `graph-down` in the Linear style.
   static const IconData graphDown =
@@ -1969,13 +2505,57 @@ abstract final class SolarIconsLinear {
   static const IconData graphUp =
       IconData(0xe1e7, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `grid-2x2-add` in the Linear style.
+  static const IconData grid2x2Add =
+      IconData(0xe589, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `grid-2x2-check` in the Linear style.
+  static const IconData grid2x2Check =
+      IconData(0xe58a, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `grid-2x2-close` in the Linear style.
+  static const IconData grid2x2Close =
+      IconData(0xe58b, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `grid-2x2` in the Linear style.
+  static const IconData grid2x2 =
+      IconData(0xe58c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `grid-3x2` in the Linear style.
+  static const IconData grid3x2 =
+      IconData(0xe58d, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `grid-3x3` in the Linear style.
+  static const IconData grid3x3 =
+      IconData(0xe58e, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `grip-horizontal` in the Linear style.
+  static const IconData gripHorizontal =
+      IconData(0xe58f, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `grip` in the Linear style.
+  static const IconData grip =
+      IconData(0xe590, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `grip-vertical` in the Linear style.
+  static const IconData gripVertical =
+      IconData(0xe591, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `hamburger-menu` in the Linear style.
   static const IconData hamburgerMenu =
       IconData(0xe1e8, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `hand-grab` in the Linear style.
+  static const IconData handGrab =
+      IconData(0xe592, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `hand-heart` in the Linear style.
   static const IconData handHeart =
       IconData(0xe1e9, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `hand` in the Linear style.
+  static const IconData hand =
+      IconData(0xe593, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `hand-money` in the Linear style.
   static const IconData handMoney =
@@ -2052,6 +2632,10 @@ abstract final class SolarIconsLinear {
   /// Solar `heart-lock` in the Linear style.
   static const IconData heartLock =
       IconData(0xe1fc, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `heart-off` in the Linear style.
+  static const IconData heartOff =
+      IconData(0xe594, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `heart-pulse-2` in the Linear style.
   static const IconData heartPulse2 =
@@ -2221,6 +2805,14 @@ abstract final class SolarIconsLinear {
   static const IconData infoSquare =
       IconData(0xe226, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `intersect` in the Linear style.
+  static const IconData intersect =
+      IconData(0xe595, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `intersect-minimalistic` in the Linear style.
+  static const IconData intersectMinimalistic =
+      IconData(0xe596, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `jar-of-pills-2` in the Linear style.
   static const IconData jarOfPills2 =
       IconData(0xe227, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -2228,6 +2820,14 @@ abstract final class SolarIconsLinear {
   /// Solar `jar-of-pills` in the Linear style.
   static const IconData jarOfPills =
       IconData(0xe228, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `kanban` in the Linear style.
+  static const IconData kanban =
+      IconData(0xe597, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `kanban-square` in the Linear style.
+  static const IconData kanbanSquare =
+      IconData(0xe598, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `key` in the Linear style.
   static const IconData key =
@@ -2293,6 +2893,22 @@ abstract final class SolarIconsLinear {
   static const IconData laptopMinimalistic =
       IconData(0xe238, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `layer-arrow-down` in the Linear style.
+  static const IconData layerArrowDown =
+      IconData(0xe599, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `layer-arrow-up` in the Linear style.
+  static const IconData layerArrowUp =
+      IconData(0xe59a, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `layers-arrow-down` in the Linear style.
+  static const IconData layersArrowDown =
+      IconData(0xe59b, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `layers-arrow-up` in the Linear style.
+  static const IconData layersArrowUp =
+      IconData(0xe59c, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `layers` in the Linear style.
   static const IconData layers =
       IconData(0xe239, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -2300,6 +2916,14 @@ abstract final class SolarIconsLinear {
   /// Solar `layers-minimalistic` in the Linear style.
   static const IconData layersMinimalistic =
       IconData(0xe23a, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `layout-freeform` in the Linear style.
+  static const IconData layoutFreeform =
+      IconData(0xe59d, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `layout-list` in the Linear style.
+  static const IconData layoutList =
+      IconData(0xe59e, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `leaf` in the Linear style.
   static const IconData leaf =
@@ -2393,6 +3017,14 @@ abstract final class SolarIconsLinear {
   static const IconData listCheckMinimalistic =
       IconData(0xe251, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `list-collapse` in the Linear style.
+  static const IconData listCollapse =
+      IconData(0xe59f, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-collapse-minimalistic` in the Linear style.
+  static const IconData listCollapseMinimalistic =
+      IconData(0xe5a0, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `list-cross` in the Linear style.
   static const IconData listCross =
       IconData(0xe252, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -2417,9 +3049,49 @@ abstract final class SolarIconsLinear {
   static const IconData listHeartMinimalistic =
       IconData(0xe257, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `list-indent-decrease` in the Linear style.
+  static const IconData listIndentDecrease =
+      IconData(0xe5a1, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-indent-increase` in the Linear style.
+  static const IconData listIndentIncrease =
+      IconData(0xe5a2, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `list` in the Linear style.
   static const IconData list =
       IconData(0xe258, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-minus` in the Linear style.
+  static const IconData listMinus =
+      IconData(0xe5a3, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-minus-minimalistic` in the Linear style.
+  static const IconData listMinusMinimalistic =
+      IconData(0xe5a4, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-ordered` in the Linear style.
+  static const IconData listOrdered =
+      IconData(0xe5a5, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-ordered-minimalistic` in the Linear style.
+  static const IconData listOrderedMinimalistic =
+      IconData(0xe5a6, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-plus` in the Linear style.
+  static const IconData listPlus =
+      IconData(0xe5a7, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-plus-minimalistic` in the Linear style.
+  static const IconData listPlusMinimalistic =
+      IconData(0xe5a8, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-unordered` in the Linear style.
+  static const IconData listUnordered =
+      IconData(0xe5a9, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `list-unordered-minimalistic` in the Linear style.
+  static const IconData listUnorderedMinimalistic =
+      IconData(0xe5aa, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `list-up` in the Linear style.
   static const IconData listUp =
@@ -2432,6 +3104,10 @@ abstract final class SolarIconsLinear {
   /// Solar `list-vertical` in the Linear style.
   static const IconData listVertical =
       IconData(0xe25b, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `loader` in the Linear style.
+  static const IconData loader =
+      IconData(0xe5ab, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `lock-keyhole` in the Linear style.
   static const IconData lockKeyhole =
@@ -2521,9 +3197,21 @@ abstract final class SolarIconsLinear {
   static const IconData magnifierBug =
       IconData(0xe271, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `magnifier-check` in the Linear style.
+  static const IconData magnifierCheck =
+      IconData(0xe5ac, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `magnifier-close` in the Linear style.
+  static const IconData magnifierClose =
+      IconData(0xe5ad, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `magnifier` in the Linear style.
   static const IconData magnifier =
       IconData(0xe272, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `magnifier-slash` in the Linear style.
+  static const IconData magnifierSlash =
+      IconData(0xe5ae, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `magnifier-zoom-in` in the Linear style.
   static const IconData magnifierZoomIn =
@@ -2580,6 +3268,10 @@ abstract final class SolarIconsLinear {
   /// Solar `map-point` in the Linear style.
   static const IconData mapPoint =
       IconData(0xe280, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `map-point-off` in the Linear style.
+  static const IconData mapPointOff =
+      IconData(0xe5af, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `map-point-remove` in the Linear style.
   static const IconData mapPointRemove =
@@ -2693,29 +3385,61 @@ abstract final class SolarIconsLinear {
   static const IconData menuDotsSquare =
       IconData(0xe29c, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `menu-dots-vertical` in the Linear style.
+  static const IconData menuDotsVertical =
+      IconData(0xe5b0, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `microphone-2` in the Linear style.
   static const IconData microphone2 =
       IconData(0xe29d, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `microphone-2-off` in the Linear style.
+  static const IconData microphone2Off =
+      IconData(0xe5b1, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `microphone-3` in the Linear style.
   static const IconData microphone3 =
       IconData(0xe29e, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `microphone-3-off` in the Linear style.
+  static const IconData microphone3Off =
+      IconData(0xe5b2, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `microphone-large` in the Linear style.
   static const IconData microphoneLarge =
       IconData(0xe29f, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `microphone-large-off` in the Linear style.
+  static const IconData microphoneLargeOff =
+      IconData(0xe5b3, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `microphone` in the Linear style.
   static const IconData microphone =
       IconData(0xe2a0, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `microphone-off` in the Linear style.
+  static const IconData microphoneOff =
+      IconData(0xe5b4, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `minimalistic-magnifier-bug` in the Linear style.
   static const IconData minimalisticMagnifierBug =
       IconData(0xe2a1, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `minimalistic-magnifier-check` in the Linear style.
+  static const IconData minimalisticMagnifierCheck =
+      IconData(0xe5b5, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `minimalistic-magnifier-close` in the Linear style.
+  static const IconData minimalisticMagnifierClose =
+      IconData(0xe5b6, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `minimalistic-magnifier` in the Linear style.
   static const IconData minimalisticMagnifier =
       IconData(0xe2a2, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `minimalistic-magnifier-slash` in the Linear style.
+  static const IconData minimalisticMagnifierSlash =
+      IconData(0xe5b7, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `minimalistic-magnifier-zoom-in` in the Linear style.
   static const IconData minimalisticMagnifierZoomIn =
@@ -2821,9 +3545,33 @@ abstract final class SolarIconsLinear {
   static const IconData mouseMinimalistic =
       IconData(0xe2bc, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `move-3d` in the Linear style.
+  static const IconData move3d =
+      IconData(0xe5b8, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `move-circle` in the Linear style.
+  static const IconData moveCircle =
+      IconData(0xe5b9, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `move-horizontal` in the Linear style.
+  static const IconData moveHorizontal =
+      IconData(0xe5ba, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `move` in the Linear style.
+  static const IconData move =
+      IconData(0xe5bb, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `move-square` in the Linear style.
+  static const IconData moveSquare =
+      IconData(0xe5bc, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `move-to-folder` in the Linear style.
   static const IconData moveToFolder =
       IconData(0xe2bd, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `move-vertical` in the Linear style.
+  static const IconData moveVertical =
+      IconData(0xe5bd, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `mug` in the Linear style.
   static const IconData mug =
@@ -2877,6 +3625,10 @@ abstract final class SolarIconsLinear {
   static const IconData muted =
       IconData(0xe2ca, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `noise-square` in the Linear style.
+  static const IconData noiseSquare =
+      IconData(0xe5be, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `notebook-2` in the Linear style.
   static const IconData notebook2 =
       IconData(0xe2cb, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -2925,6 +3677,10 @@ abstract final class SolarIconsLinear {
   static const IconData objectScan =
       IconData(0xe2d6, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `opacity` in the Linear style.
+  static const IconData opacity =
+      IconData(0xe5bf, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `outgoing-call` in the Linear style.
   static const IconData outgoingCall =
       IconData(0xe2d7, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -2945,6 +3701,10 @@ abstract final class SolarIconsLinear {
   static const IconData paintBrush =
       IconData(0xe2db, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `paint-bucket` in the Linear style.
+  static const IconData paintBucket =
+      IconData(0xe5c0, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `paint-roller` in the Linear style.
   static const IconData paintRoller =
       IconData(0xe2dc, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -2964,6 +3724,74 @@ abstract final class SolarIconsLinear {
   /// Solar `pallete-2` in the Linear style.
   static const IconData pallete2 =
       IconData(0xe2e0, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-bottom-close` in the Linear style.
+  static const IconData panelBottomClose =
+      IconData(0xe5c1, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-bottom` in the Linear style.
+  static const IconData panelBottom =
+      IconData(0xe5c2, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-bottom-open` in the Linear style.
+  static const IconData panelBottomOpen =
+      IconData(0xe5c3, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-left-close` in the Linear style.
+  static const IconData panelLeftClose =
+      IconData(0xe5c4, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-left` in the Linear style.
+  static const IconData panelLeft =
+      IconData(0xe5c5, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-left-open` in the Linear style.
+  static const IconData panelLeftOpen =
+      IconData(0xe5c6, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-right-close` in the Linear style.
+  static const IconData panelRightClose =
+      IconData(0xe5c7, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-right` in the Linear style.
+  static const IconData panelRight =
+      IconData(0xe5c8, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-right-open` in the Linear style.
+  static const IconData panelRightOpen =
+      IconData(0xe5c9, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-text-right` in the Linear style.
+  static const IconData panelTextRight =
+      IconData(0xe5ca, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-top-close` in the Linear style.
+  static const IconData panelTopClose =
+      IconData(0xe5cb, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-top` in the Linear style.
+  static const IconData panelTop =
+      IconData(0xe5cc, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panel-top-open` in the Linear style.
+  static const IconData panelTopOpen =
+      IconData(0xe5cd, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panels-bottom-left` in the Linear style.
+  static const IconData panelsBottomLeft =
+      IconData(0xe5ce, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panels-bottom-right` in the Linear style.
+  static const IconData panelsBottomRight =
+      IconData(0xe5cf, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panels-top-left` in the Linear style.
+  static const IconData panelsTopLeft =
+      IconData(0xe5d0, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `panels-top-right` in the Linear style.
+  static const IconData panelsTopRight =
+      IconData(0xe5d1, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `panorama` in the Linear style.
   static const IconData panorama =
@@ -2992,6 +3820,10 @@ abstract final class SolarIconsLinear {
   /// Solar `paragraph-spacing` in the Linear style.
   static const IconData paragraphSpacing =
       IconData(0xe2e7, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `parentheses` in the Linear style.
+  static const IconData parentheses =
+      IconData(0xe5d2, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `passport` in the Linear style.
   static const IconData passport =
@@ -3044,6 +3876,10 @@ abstract final class SolarIconsLinear {
   /// Solar `people-nearby` in the Linear style.
   static const IconData peopleNearby =
       IconData(0xe2f4, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `percent` in the Linear style.
+  static const IconData percent =
+      IconData(0xe5d3, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `perfume` in the Linear style.
   static const IconData perfume =
@@ -3285,6 +4121,18 @@ abstract final class SolarIconsLinear {
   static const IconData quitPip =
       IconData(0xe330, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `quote-circle` in the Linear style.
+  static const IconData quoteCircle =
+      IconData(0xe5d4, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `quote` in the Linear style.
+  static const IconData quote =
+      IconData(0xe5d5, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `quote-square` in the Linear style.
+  static const IconData quoteSquare =
+      IconData(0xe5d6, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `radar-2` in the Linear style.
   static const IconData radar2 =
       IconData(0xe331, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -3344,6 +4192,10 @@ abstract final class SolarIconsLinear {
   /// Solar `record-square` in the Linear style.
   static const IconData recordSquare =
       IconData(0xe33f, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rectangle` in the Linear style.
+  static const IconData rectangle =
+      IconData(0xe5d7, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `reel-2` in the Linear style.
   static const IconData reel2 =
@@ -3477,6 +4329,22 @@ abstract final class SolarIconsLinear {
   static const IconData rollingPin =
       IconData(0xe360, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `rotate-anticlockwise-2` in the Linear style.
+  static const IconData rotateAnticlockwise2 =
+      IconData(0xe5d8, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rotate-anticlockwise` in the Linear style.
+  static const IconData rotateAnticlockwise =
+      IconData(0xe5d9, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rotate-clockwise-2` in the Linear style.
+  static const IconData rotateClockwise2 =
+      IconData(0xe5da, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rotate-clockwise` in the Linear style.
+  static const IconData rotateClockwise =
+      IconData(0xe5db, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `round-alt-arrow-down` in the Linear style.
   static const IconData roundAltArrowDown =
       IconData(0xe361, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -3569,9 +4437,21 @@ abstract final class SolarIconsLinear {
   static const IconData roundedMagnifierBug =
       IconData(0xe377, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `rounded-magnifier-check` in the Linear style.
+  static const IconData roundedMagnifierCheck =
+      IconData(0xe5dc, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rounded-magnifier-close` in the Linear style.
+  static const IconData roundedMagnifierClose =
+      IconData(0xe5dd, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `rounded-magnifier` in the Linear style.
   static const IconData roundedMagnifier =
       IconData(0xe378, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rounded-magnifier-slash` in the Linear style.
+  static const IconData roundedMagnifierSlash =
+      IconData(0xe5de, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `rounded-magnifier-zoom-in` in the Linear style.
   static const IconData roundedMagnifierZoomIn =
@@ -3596,6 +4476,22 @@ abstract final class SolarIconsLinear {
   /// Solar `routing` in the Linear style.
   static const IconData routing =
       IconData(0xe37e, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rows-2` in the Linear style.
+  static const IconData rows2 =
+      IconData(0xe5df, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rows-3` in the Linear style.
+  static const IconData rows3 =
+      IconData(0xe5e0, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rows-4` in the Linear style.
+  static const IconData rows4 =
+      IconData(0xe5e1, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `rss` in the Linear style.
+  static const IconData rss =
+      IconData(0xe5e2, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `ruble` in the Linear style.
   static const IconData ruble =
@@ -3709,6 +4605,10 @@ abstract final class SolarIconsLinear {
   static const IconData sdCard =
       IconData(0xe39a, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `selection` in the Linear style.
+  static const IconData selection =
+      IconData(0xe5e3, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `send-square` in the Linear style.
   static const IconData sendSquare =
       IconData(0xe39b, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -3716,6 +4616,14 @@ abstract final class SolarIconsLinear {
   /// Solar `send-twice-square` in the Linear style.
   static const IconData sendTwiceSquare =
       IconData(0xe39c, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `separator-horizontal` in the Linear style.
+  static const IconData separatorHorizontal =
+      IconData(0xe5e4, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `separator-vertical` in the Linear style.
+  static const IconData separatorVertical =
+      IconData(0xe5e5, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `server-2` in the Linear style.
   static const IconData server2 =
@@ -3753,6 +4661,14 @@ abstract final class SolarIconsLinear {
   static const IconData settingsMinimalistic =
       IconData(0xe3a5, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `shadow` in the Linear style.
+  static const IconData shadow =
+      IconData(0xe5e6, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `shape-rotate` in the Linear style.
+  static const IconData shapeRotate =
+      IconData(0xe5e7, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `share-circle` in the Linear style.
   static const IconData shareCircle =
       IconData(0xe3a6, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -3760,6 +4676,10 @@ abstract final class SolarIconsLinear {
   /// Solar `share` in the Linear style.
   static const IconData share =
       IconData(0xe3a7, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `sheet` in the Linear style.
+  static const IconData sheet =
+      IconData(0xe5e8, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `shield-check` in the Linear style.
   static const IconData shieldCheck =
@@ -3792,6 +4712,10 @@ abstract final class SolarIconsLinear {
   /// Solar `shield-network` in the Linear style.
   static const IconData shieldNetwork =
       IconData(0xe3af, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `shield-off` in the Linear style.
+  static const IconData shieldOff =
+      IconData(0xe5e9, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `shield-plus` in the Linear style.
   static const IconData shieldPlus =
@@ -3844,6 +4768,26 @@ abstract final class SolarIconsLinear {
   /// Solar `sidebar-minimalistic` in the Linear style.
   static const IconData sidebarMinimalistic =
       IconData(0xe3bc, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `signal-high` in the Linear style.
+  static const IconData signalHigh =
+      IconData(0xe5ea, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `signal` in the Linear style.
+  static const IconData signal =
+      IconData(0xe5eb, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `signal-low` in the Linear style.
+  static const IconData signalLow =
+      IconData(0xe5ec, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `signal-medium` in the Linear style.
+  static const IconData signalMedium =
+      IconData(0xe5ed, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `signal-zero` in the Linear style.
+  static const IconData signalZero =
+      IconData(0xe5ee, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `signpost-2` in the Linear style.
   static const IconData signpost2 =
@@ -4061,6 +5005,10 @@ abstract final class SolarIconsLinear {
   static const IconData soundwaveSquare =
       IconData(0xe3f2, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `sparkles` in the Linear style.
+  static const IconData sparkles =
+      IconData(0xe5ef, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `speaker` in the Linear style.
   static const IconData speaker =
       IconData(0xe3f3, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -4149,6 +5097,18 @@ abstract final class SolarIconsLinear {
   static const IconData squareBottomUp =
       IconData(0xe408, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `square-dashed` in the Linear style.
+  static const IconData squareDashed =
+      IconData(0xe5f0, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `square-dot-dashed` in the Linear style.
+  static const IconData squareDotDashed =
+      IconData(0xe5f1, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `square-dot` in the Linear style.
+  static const IconData squareDot =
+      IconData(0xe5f2, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `square-double-alt-arrow-down` in the Linear style.
   static const IconData squareDoubleAltArrowDown =
       IconData(0xe409, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -4233,9 +5193,17 @@ abstract final class SolarIconsLinear {
   static const IconData starFallMinimalistic =
       IconData(0xe41d, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `star-half` in the Linear style.
+  static const IconData starHalf =
+      IconData(0xe5f3, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `star` in the Linear style.
   static const IconData star =
       IconData(0xe41e, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `star-off` in the Linear style.
+  static const IconData starOff =
+      IconData(0xe5f4, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `star-rainbow` in the Linear style.
   static const IconData starRainbow =
@@ -4353,6 +5321,14 @@ abstract final class SolarIconsLinear {
   static const IconData subtitles =
       IconData(0xe43b, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `subtract` in the Linear style.
+  static const IconData subtract =
+      IconData(0xe5f5, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `subtract-minimalistic` in the Linear style.
+  static const IconData subtractMinimalistic =
+      IconData(0xe5f6, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `suitcase` in the Linear style.
   static const IconData suitcase =
       IconData(0xe43c, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -4408,6 +5384,34 @@ abstract final class SolarIconsLinear {
   /// Solar `t-shirt` in the Linear style.
   static const IconData tShirt =
       IconData(0xe449, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `table-cells-merge` in the Linear style.
+  static const IconData tableCellsMerge =
+      IconData(0xe5f7, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `table-cells-split` in the Linear style.
+  static const IconData tableCellsSplit =
+      IconData(0xe5f8, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `table-columns-split` in the Linear style.
+  static const IconData tableColumnsSplit =
+      IconData(0xe5f9, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `table` in the Linear style.
+  static const IconData table =
+      IconData(0xe5fa, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `table-minimalistic` in the Linear style.
+  static const IconData tableMinimalistic =
+      IconData(0xe5fb, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `table-properties` in the Linear style.
+  static const IconData tableProperties =
+      IconData(0xe5fc, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `table-rows-split` in the Linear style.
+  static const IconData tableRowsSplit =
+      IconData(0xe5fd, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `tablet` in the Linear style.
   static const IconData tablet =
@@ -4497,6 +5501,10 @@ abstract final class SolarIconsLinear {
   static const IconData textFormat =
       IconData(0xe45f, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `text-heading` in the Linear style.
+  static const IconData textHeading =
+      IconData(0xe5fe, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `text-italic-circle` in the Linear style.
   static const IconData textItalicCircle =
       IconData(0xe460, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -4557,6 +5565,14 @@ abstract final class SolarIconsLinear {
   static const IconData toPip =
       IconData(0xe46e, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `toggle-left` in the Linear style.
+  static const IconData toggleLeft =
+      IconData(0xe5ff, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `toggle-right` in the Linear style.
+  static const IconData toggleRight =
+      IconData(0xe600, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `toolbox` in the Linear style.
   static const IconData toolbox =
       IconData(0xe46f, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -4588,6 +5604,10 @@ abstract final class SolarIconsLinear {
   /// Solar `transfer-vertical` in the Linear style.
   static const IconData transferVertical =
       IconData(0xe476, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `translate` in the Linear style.
+  static const IconData translate =
+      IconData(0xe601, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `translation-2` in the Linear style.
   static const IconData translation2 =
@@ -4724,6 +5744,10 @@ abstract final class SolarIconsLinear {
   /// Solar `undo-right-square` in the Linear style.
   static const IconData undoRightSquare =
       IconData(0xe498, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `union` in the Linear style.
+  static const IconData union =
+      IconData(0xe602, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `unlink` in the Linear style.
   static const IconData unlink =
@@ -4865,6 +5889,14 @@ abstract final class SolarIconsLinear {
   static const IconData vanity =
       IconData(0xe4bb, fontFamily: fontFamily, fontPackage: fontPackage);
 
+  /// Solar `variable-brackets` in the Linear style.
+  static const IconData variableBrackets =
+      IconData(0xe603, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `variable-square` in the Linear style.
+  static const IconData variableSquare =
+      IconData(0xe604, fontFamily: fontFamily, fontPackage: fontPackage);
+
   /// Solar `verified-check` in the Linear style.
   static const IconData verifiedCheck =
       IconData(0xe4bc, fontFamily: fontFamily, fontPackage: fontPackage);
@@ -4980,6 +6012,10 @@ abstract final class SolarIconsLinear {
   /// Solar `wallpaper` in the Linear style.
   static const IconData wallpaper =
       IconData(0xe4d8, fontFamily: fontFamily, fontPackage: fontPackage);
+
+  /// Solar `warp` in the Linear style.
+  static const IconData warp =
+      IconData(0xe605, fontFamily: fontFamily, fontPackage: fontPackage);
 
   /// Solar `washing-machine` in the Linear style.
   static const IconData washingMachine =

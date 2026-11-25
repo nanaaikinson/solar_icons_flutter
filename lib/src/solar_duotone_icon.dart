@@ -61,17 +61,18 @@ class SolarDuotoneIcon extends StatelessWidget {
     if (data == null) {
       content = SizedBox(width: resolvedSize, height: resolvedSize);
     } else {
+      final shade = secondaryColor ??
+          resolvedColor.withValues(alpha: resolvedColor.a * secondaryOpacity);
       content = Stack(
         alignment: Alignment.center,
         children: <Widget>[
-          Icon(
-            data.secondary,
-            size: resolvedSize,
-            color: secondaryColor ??
-                resolvedColor.withValues(
-                    alpha: resolvedColor.a * secondaryOpacity),
-            textDirection: textDirection,
-          ),
+          for (final layer in <IconData>[data.secondary, ...data.overlaps])
+            Icon(
+              layer,
+              size: resolvedSize,
+              color: shade,
+              textDirection: textDirection,
+            ),
           Icon(
             data.primary,
             size: resolvedSize,

@@ -43,7 +43,7 @@ ROOT = Path(__file__).resolve().parent.parent
 FONT_DIR = ROOT / "fonts"
 SRC_DIR = ROOT / "lib" / "src"
 
-ICONIFY_PKG = "@iconify-json/solar@1.2.10"
+ICONIFY_PKG = "@iconify-json/solar@1.2.15"
 
 # Longest suffixes first so `-bold-duotone` is not shortened to `-bold`.
 STYLES = [
@@ -59,9 +59,17 @@ STYLES = [
 UPEM = 1200
 SVG_SIZE = 24
 SCALE = UPEM / SVG_SIZE  # 50 font units per SVG unit
-ASCENDER = 1000
-DESCENDER = -200  # ASCENDER - DESCENDER == UPEM, so Icon() centres exactly.
+# The baseline sits at the bottom of the em, a whole pixel at any whole-number
+# icon size. With it at 1000/1200 of the size, Flutter rounds it to the nearest
+# pixel and glyphs land up to half a pixel off, differently at every size.
+ASCENDER = 1200
+DESCENDER = 0  # ASCENDER - DESCENDER == UPEM, so Icon() centres exactly.
 FIRST_CODEPOINT = 0xE000
+
+# Every code point ever assigned, per style. Icons keep theirs across source
+# bumps, and new icons are appended after the highest one, so a font from one
+# release never draws the wrong glyph for a constant compiled against another.
+CODEPOINTS = ROOT / "tool" / "codepoints.json"
 
 # The fonts are checked in, so their bytes must be reproducible. fontTools stamps
 # head.created/modified with the wall clock, which would turn every regeneration
@@ -320,14 +328,183 @@ def unmask(body: str):
     return serialise(paint), serialise(cut)
 
 
+_HREFS = ("href", "{http://www.w3.org/1999/xlink}href")
+_INHERITED = (
+    "fill", "fill-rule", "stroke", "stroke-width", "stroke-linecap",
+    "stroke-linejoin", "stroke-miterlimit", "stroke-dasharray", "stroke-dashoffset",
+)
+
+
+def _parse(body: str):
+    import xml.etree.ElementTree as ET
+
+    ET.register_namespace("", _SVG_NS)
+    return ET.fromstring(f'<svg xmlns="{_SVG_NS}">{body}</svg>')
+
+
+def _serialise(root) -> str:
+    import xml.etree.ElementTree as ET
+
+    return "".join(
+        ET.tostring(child, encoding="unicode").replace(f' xmlns="{_SVG_NS}"', "")
+        for child in root
+    )
+
+
+def inline_uses(body: str) -> str:
+    """Replace each `<use href="#id">` with a copy of the element it names.
+
+    picosvg resolves only `xlink:href`, and Solar has started emitting `href`.
+    """
+    if "<use" not in body:
+        return body
+    import copy
+
+    root = _parse(body)
+    targets = {e.get("id"): e for e in root.iter() if e.get("id")}
+    for parent in list(root.iter()):
+        for index, child in enumerate(list(parent)):
+            if _local(child.tag) != "use":
+                continue
+            href = next((child.get(h) for h in _HREFS if child.get(h)), "")
+            target = targets.get(href[1:]) if href.startswith("#") else None
+            if target is None or child.get("x", "0") != "0" or child.get("y", "0") != "0":
+                return body  # not the known idiom; let picosvg report it
+            clone = copy.deepcopy(target)
+            clone.attrib.pop("id")
+            for name, value in child.attrib.items():
+                if name not in _HREFS:
+                    clone.set(name, value)
+            parent[index] = clone
+    return _serialise(root)
+
+
+def split_masked(body: str):
+    """Pull out shapes clipped by an all-white mask: (rest, [(shape, mask)]).
+
+    A mask that paints only full-strength white is a plain clip, so the shape
+    renders as its own geometry intersected with the mask's. picosvg cannot
+    resolve masks, so `flatten` does that intersection itself. Each pulled-out
+    shape takes the presentation attributes it inherited from its groups.
+    """
+    if "mask=" not in body:
+        return body, []
+    root = _parse(body)
+    masks = {e.get("id"): e for e in root.iter() if _local(e.tag) == "mask"}
+    clipped = []
+
+    def walk(element, inherited):
+        inherited = {**inherited, **{a: element.get(a) for a in _INHERITED if element.get(a)}}
+        for child in list(element):
+            ref = child.get("mask", "")
+            mask = masks.get(ref[5:-1]) if ref.startswith("url(#") else None
+            if mask is None:
+                walk(child, inherited)
+                continue
+            shapes = [e for e in mask.iter() if _local(e.tag) in _SHAPE_TAGS]
+            fills = {e.get("fill", mask.get("fill")) for e in shapes}
+            if not shapes or not fills <= {"#fff", "#ffffff", "white"} or any(
+                e.get("stroke") for e in shapes
+            ):
+                raise ValueError(f"unsupported mask {ref}")
+            child.attrib.pop("mask")
+            for name, value in inherited.items():
+                if child.get(name) is None:
+                    child.set(name, value)
+            for shape in shapes:
+                shape.set("fill", "currentColor")
+            clipped.append((_serialise([child]), _serialise(mask)))
+            element.remove(child)
+
+    walk(root, {})
+    for mask in masks.values():
+        for parent in root.iter():
+            if mask in list(parent):
+                parent.remove(mask)
+    return _serialise(root), clipped
+
+
+def translucent_units(body: str) -> list[tuple[str, int]]:
+    """The translucent units of `body`: (standalone markup, layer count).
+
+    A unit is the outermost element that carries an opacity. SVG composites a
+    unit as a whole, so its own pieces never stack, but two units that overlap
+    composite darker: 50% over 50% is 75%. Duotone layers are all drawn at 50%,
+    so a unit counts as the number of stacked layers nearest its opacity: 0.3
+    is one layer (50%), 0.7 two (75%). Each unit takes the presentation
+    attributes it inherited. Returns [] if a transform sits above a unit.
+    """
+    root = _parse(body)
+    units = []
+
+    def walk(element, inherited) -> bool:
+        for child in element:
+            if _local(child.tag) in _OPACITY_OPAQUE:
+                continue
+            opacity = float(child.get("opacity", 1))
+            if opacity < 1:
+                for name, value in inherited.items():
+                    if child.get(name) is None:
+                        child.set(name, value)
+                child.attrib.pop("opacity")
+                count = min(range(1, 5), key=lambda n: abs(opacity - (1 - 0.5**n)))
+                units.append((_serialise([child]), count))
+                continue
+            if child.get("transform") is not None and len(child):
+                return False
+            if not walk(child, {**inherited, **{a: child.get(a) for a in _INHERITED if child.get(a)}}):
+                return False
+        return True
+
+    return units if walk(root, {}) else []
+
+
+def overlap_layers(units, pico, opaque: str) -> list[str]:
+    """Regions covered by at least 2, 3 and 4 of `units`, as path data.
+
+    Parts hidden under `opaque` (the primary layer's path data) are left out:
+    they never show, and their antialiased edges would darken the primary's.
+    """
+    from picosvg import svg_pathops as sp
+    from picosvg.svg_types import SVGPath
+
+    levels: list[list] = []  # levels[j]: the region covered by more than j layers
+    for unit in (markup for markup, count in units for _ in range(count)):
+        shapes = list(pico(unit).shapes())
+        if not shapes:
+            continue
+        path = list(sp.union([s.as_cmd_seq() for s in shapes], [s.fill_rule or "nonzero" for s in shapes]))
+        for j in range(min(len(levels), 3), 0, -1):
+            deeper = list(sp.intersection([levels[j - 1], path], ["nonzero", "nonzero"]))
+            if j == len(levels):
+                levels.append(deeper)
+            else:
+                levels[j] = list(sp.union([levels[j], deeper], ["nonzero", "nonzero"]))
+        levels[0:1] = [list(sp.union(levels[:1] + [path], ["nonzero"] * (len(levels[:1]) + 1)))]
+    if opaque:
+        hidden = SVGPath(d=opaque).as_cmd_seq()
+        levels[1:] = [list(sp.difference([level, hidden], ["nonzero", "nonzero"])) for level in levels[1:]]
+    out = []
+    for level in levels[1:]:
+        if level and sp.path_area(level, "nonzero") >= 0.02:
+            out.append(SVGPath.from_commands(level).round_floats(3).d.strip())
+    return out
+
+
 def flatten(item):
-    """Worker: one icon -> {opacity: path_d} or an error string."""
+    """Worker: one icon -> {opacity: path_d, "overlaps": [path_d]} or an error string."""
     key, body = item
     from picosvg import svg_pathops as sp
     from picosvg.svg import SVG
     from picosvg.svg_types import SVGPath
 
-    paint_body, cut_body = unmask(body)
+    import dataclasses
+
+    try:
+        paint_body, cut_body = unmask(inline_uses(body))
+        paint_body, clipped = split_masked(paint_body)
+    except ValueError as e:
+        return key, None, f"markup: {e}"
 
     def pico(markup):
         wrapped = (
@@ -342,8 +519,26 @@ def flatten(item):
     except Exception as e:  # noqa: BLE001 - reported, not swallowed
         return key, None, f"picosvg: {type(e).__name__}: {e}"
 
+    shapes = list(painted.shapes())
+    try:
+        for shape_markup, mask_markup in clipped:
+            mask_shapes = list(pico(mask_markup).shapes())
+            mask = sp.union(
+                [m.as_cmd_seq() for m in mask_shapes],
+                [m.fill_rule or "nonzero" for m in mask_shapes],
+            )
+            for shape in pico(shape_markup).shapes():
+                kept = SVGPath.from_commands(
+                    sp.intersection(
+                        [shape.as_cmd_seq(), mask], [shape.fill_rule or "nonzero", "nonzero"]
+                    )
+                )
+                shapes.append(dataclasses.replace(kept, opacity=shape.opacity))
+    except Exception as e:  # noqa: BLE001
+        return key, None, f"mask: {type(e).__name__}: {e}"
+
     layers: dict[float, list] = {}
-    for shape in painted.shapes():
+    for shape in shapes:
         opacity = float(getattr(shape, "opacity", 1.0)) * float(getattr(shape, "fill_opacity", 1.0))
         opacity = round(opacity, 3)
         if opacity <= 0.0:
@@ -386,6 +581,14 @@ def flatten(item):
             out[opacity] = d
     if not out:
         return key, None, "no visible geometry"
+    if key.endswith("-duotone") and "<mask" not in body:
+        try:
+            opaque = " ".join(d for op, d in out.items() if op >= 1.0)
+            overlaps = overlap_layers(translucent_units(paint_body), pico, opaque)
+        except Exception as e:  # noqa: BLE001
+            return key, None, f"overlap: {type(e).__name__}: {e}"
+        if overlaps:
+            out["overlaps"] = overlaps
     return key, out, None
 
 
@@ -419,6 +622,21 @@ def to_layers(style_is_duotone: bool, layers: dict) -> tuple[str, str | None]:
 
 
 # --------------------------------------------------------------------------- 3
+
+
+def assign_codepoints(locked: dict, bases: list[str], step: int) -> dict:
+    """Keep the code points in `locked` and append new `bases` after the highest.
+
+    `locked` maps Solar base names to hex code points. Names that left the
+    source stay in it, so their code points are never handed to another icon.
+    """
+    assigned = {base: int(cp, 16) for base, cp in locked.items()}
+    next_cp = max(assigned.values(), default=FIRST_CODEPOINT - step) + step
+    for base in bases:
+        if base not in assigned:
+            assigned[base] = next_cp
+            next_cp += step
+    return assigned
 
 
 def build_font(family: str, contours: list[str], out_path: Path, version: str):
@@ -515,8 +733,11 @@ import 'package:flutter/widgets.dart';
 """
 
 
-def emit_dart(class_suffix, family, duotone, entries, version):
-    """entries: [(dart_name, base_name, codepoint)] -- codepoint is the primary."""
+def emit_dart(class_suffix, family, duotone, entries, version, overlaps):
+    """entries: [(dart_name, base_name, codepoint)] -- codepoint is the primary.
+
+    overlaps: {base_name: [codepoint]} for duotone icons with stacked layers.
+    """
     extra = "\nimport 'solar_duotone_icon_data.dart';\n" if duotone else ""
     lines = [DART_HEADER.format(pkg=ICONIFY_PKG, extra_imports=extra)]
     kind = "duotone " if duotone else ""
@@ -542,7 +763,17 @@ def emit_dart(class_suffix, family, duotone, entries, version):
                 f"fontFamily: fontFamily, fontPackage: fontPackage),\n"
                 f"    secondary: IconData(0x{cp + 1:x}, "
                 f"fontFamily: fontFamily, fontPackage: fontPackage),\n"
-                f"  );"
+                + (
+                    "    overlaps: <IconData>[\n"
+                    + "".join(
+                        f"      IconData(0x{o:x}, fontFamily: fontFamily, fontPackage: fontPackage),\n"
+                        for o in overlaps[base]
+                    )
+                    + "    ],\n"
+                    if base in overlaps
+                    else ""
+                )
+                + "  );"
             )
         else:
             lines.append(
@@ -641,7 +872,19 @@ def main():
 
     args.icons_json.parent.mkdir(parents=True, exist_ok=True)
     print(f"1. source: {ICONIFY_PKG}")
-    icons = json.loads(fetch_icons_json(args.icons_json).read_text())["icons"]
+    icon_set = json.loads(fetch_icons_json(args.icons_json).read_text())
+    icons = icon_set["icons"]
+    locks = json.loads(CODEPOINTS.read_text()) if CODEPOINTS.exists() else {}
+    # Solar renames icons by turning the old name into an alias. Names that
+    # already shipped stay, drawn from their new artwork.
+    class_suffixes = {suffix: class_suffix for suffix, class_suffix, *_ in STYLES}
+    for alias, spec in icon_set.get("aliases", {}).items():
+        base, suffix = split_key(alias)
+        if alias in icons or base not in locks.get(class_suffixes.get(suffix), {}):
+            continue
+        if set(spec) != {"parent"} or spec["parent"] not in icons:
+            raise SystemExit(f"shipped icon {alias} became an unsupported alias: {spec}")
+        icons[alias] = icons[spec["parent"]]
     print(f"   {len(icons)} icons")
 
     print("2. flattening (picosvg: stroke -> fill, groups/transforms resolved)")
@@ -651,20 +894,34 @@ def main():
     summary, indexes = [], []
     for suffix, class_suffix, family, duotone in STYLES:
         keys = sorted(k for k in flat if split_key(k)[1] == suffix)
-        contours, entries = [], []
+        step = 2 if duotone else 1
+        stacked = {
+            split_key(k)[0]: flat[k].pop("overlaps") for k in keys if "overlaps" in flat[k]
+        }
+        assigned = assign_codepoints(
+            locks.get(class_suffix, {}),
+            [split_key(k)[0] for k in keys]
+            + [f"{base}/overlap{n}" for base in sorted(stacked) for n in range(1, len(stacked[base]) + 1)],
+            step,
+        )
+        locks[class_suffix] = {base: f"0x{cp:x}" for base, cp in assigned.items()}
+        contours = [""] * (max(assigned.values()) + step - FIRST_CODEPOINT)
+        entries = []
         n_secondary = 0
-        for index, key in enumerate(keys):
+        for key in keys:
             base = split_key(key)[0]
+            cp = assigned[base]
             primary, secondary = to_layers(duotone, flat[key])
+            contours[cp - FIRST_CODEPOINT] = primary
             if duotone:
-                cp = FIRST_CODEPOINT + index * 2
-                contours.append(primary)
-                contours.append(secondary or "")
+                contours[cp + 1 - FIRST_CODEPOINT] = secondary or ""
                 n_secondary += 1 if secondary else 0
-            else:
-                cp = FIRST_CODEPOINT + index
-                contours.append(primary)
             entries.append((dart_name(base), base, cp))
+        overlaps = {}
+        for base, layers in stacked.items():
+            overlaps[base] = [assigned[f"{base}/overlap{n}"] for n in range(1, len(layers) + 1)]
+            for cp, d in zip(overlaps[base], layers):
+                contours[cp - FIRST_CODEPOINT] = d
 
         names = Counter(name for name, _, _ in entries)
         clashes = {n: c for n, c in names.items() if c > 1}
@@ -674,7 +931,7 @@ def main():
         font_path = FONT_DIR / f"{family}.ttf"
         build_font(family, contours, font_path, args.version)
         dart_path = SRC_DIR / f"solar_icons_{suffix.replace('-', '_')}.dart"
-        dart_path.write_text(emit_dart(class_suffix, family, duotone, entries, args.version))
+        dart_path.write_text(emit_dart(class_suffix, family, duotone, entries, args.version, overlaps))
         module = f"src/solar_icons_{suffix.replace('-', '_')}"
         index_path = SRC_DIR / "index" / f"solar_icons_{suffix.replace('-', '_')}_index.dart"
         index_path.parent.mkdir(parents=True, exist_ok=True)
@@ -722,6 +979,8 @@ def main():
         check=True,
         capture_output=True,
     )
+
+    CODEPOINTS.write_text(json.dumps(locks, indent=2, sort_keys=True) + "\n")
 
     (ROOT / "tool" / "manifest.json").write_text(
         json.dumps(
